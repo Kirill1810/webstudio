@@ -11,13 +11,12 @@ letter-spacing: 0.03em;
 color: #2196F3;
 
 }
-.header-studio{
-    position: absolute;
-width: 45px;
-height: 16px;
-left: 453px;
-top: 32px;
 
+ .header-studio:hover {
+color: #2196F3;
+    }
+
+.header-studio {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -25,9 +24,12 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: #151a1f;
 
 }
+.header-portfolio:hover {
+    color: #2196F3;
+        }
 .header-portfolio{
     font-family: 'Roboto';
 font-style: normal;
@@ -38,6 +40,11 @@ letter-spacing: 0.02em;
 
 color: #212121;
 }
+
+
+.header-contakt:hover {
+    color: #2196F3;
+        }
 .header-contakt{
     font-family: 'Roboto';
 font-style: normal;
@@ -48,6 +55,11 @@ letter-spacing: 0.02em;
 
 color: #212121;
 }
+
+
+.header-numer:hover {
+    color: #2196F3;
+        }
 .header-numer{
     font-family: 'Roboto';
 font-style: normal;
@@ -56,8 +68,12 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #2196F3;
+color: #757575;
 }
+
+.header-post:hover {
+    color: #2196F3;
+        }
 .header-post{
     font-family: 'Roboto';
 font-style: normal;
@@ -69,7 +85,7 @@ letter-spacing: 0.02em;
 color: #757575;
 
 }
-.mein-bisnes{
+.hero-bisnes{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 900;
@@ -83,7 +99,7 @@ text-transform: uppercase;
 
 color: #FFFFFF;
 }
-.mein-button{
+.hero-button{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -97,9 +113,10 @@ text-align: center;
 letter-spacing: 0.06em;
 
 color: #FFFFFF;
+background-color: #2196F3;
 
 }
-.mein-detals{
+.about-detals{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -111,7 +128,7 @@ text-transform: uppercase;
 color: #212121;
 
 }
-.mein-ideis{
+.about-ideis{
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -283,6 +300,12 @@ color: #212121;
     color: #2196F3;
     
 }
+
+
+
+.header-studio2:hover {
+    color: #2196F3;
+        }
 .header-studio2{
     font-family: 'Roboto';
     font-style: normal;
@@ -293,12 +316,12 @@ color: #212121;
     
     color: #212121; 
 }
+
+.header-portfolio2:hover {
+    color: #2196F3;
+        }
 .header-portfolio2{
-    position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
+
     
     font-family: 'Roboto';
     font-style: normal;
@@ -307,8 +330,12 @@ color: #212121;
     line-height: 16px;
     letter-spacing: 0.02em;
     
-    color: #2196F3;
+    color: #01070c;
     }
+
+    .header-contakt2:hover {
+        color: #2196F3;
+            }
     .header-contakt2{
         font-family: 'Roboto';
 font-style: normal;
@@ -319,6 +346,10 @@ letter-spacing: 0.02em;
 
 color: #212121; 
     }
+
+    .header-numer2:hover {
+        color: #5154e6;
+            }
     .header-numer2{
         font-family: 'Roboto';
 font-style: normal;
@@ -327,8 +358,12 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.02em;
 
-color: #5154e6; 
+color:#757575; 
     }
+
+    .header-post2:hover {
+        color: #5154e6;
+            }
     .header-post2{
         font-family: 'Roboto';
         font-style: normal;
@@ -341,7 +376,7 @@ color: #5154e6;
     }
     
     }
-    .button1{
+    .button{
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 500;
@@ -355,7 +390,16 @@ color: #5154e6;
         color: #FFFFFF;
         background-color: #2196F3;
     }
-    .button2{
+
+    button:hover {
+       background-color:  #2196F3;
+       color: rgb(240, 242, 243);
+            }
+
+
+
+
+    .button{
         font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -414,5 +458,31 @@ color: #212121;
     }
     .footer-logo2{
         color: #FFFFFF;
+
+    background-color: #000000;
+    }
+    .footer-addres2{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+    }
+    .footer-numer2{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
     }
 
