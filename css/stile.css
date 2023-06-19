@@ -96,6 +96,7 @@ line-height: 60px;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+background-color: #000000;
 
 color: #FFFFFF;
 }
@@ -490,32 +491,9 @@ color: rgba(255, 255, 255, 0.6);
     }
 
 .coteiner{
-width: 1600;
-padding-left: 40px;
-padding-right: 40px;
+width: 1170;
+padding-left: 15px;
+padding-right: 15px;
 outline: solid red;
     }
-    .coteiner2{
-        width: 1600;
-        padding-left:300px;
-        padding-right:300px;
-        outline: solid red;
-        background-color: #000000;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .coteiner3{
-        width: 1170;
-padding-left: 40px;
-padding-right: 40px;
-outline: solid red;
-margin-left: auto;
-margin-right: auto;
-    }
-    .coteiner4{
-            width: 1600;
-            padding-left: 40px;
-            padding-right: 40px;
-            outline: solid red;
-    }
-
+   
