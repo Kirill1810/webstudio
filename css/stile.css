@@ -1,281 +1,302 @@
-.header-logo{
+.header-logo {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-color: #2196F3;
+    color: #2196F3;
 
 }
 
- .header-studio:hover {
-color: #2196F3;
-    }
+.header-studio:hover {
+    color: #2196F3;
+}
 
 .header-studio {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-color: #151a1f;
+    color: #151a1f;
 
 }
+
 .header-portfolio:hover {
     color: #2196F3;
-        }
-.header-portfolio{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+}
 
-color: #212121;
+.header-portfolio {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
 
 
 .header-contakt:hover {
     color: #2196F3;
-        }
-.header-contakt{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+}
 
-color: #212121;
+.header-contakt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #212121;
 }
 
 
 .header-numer:hover {
     color: #2196F3;
-        }
-.header-numer{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+}
 
-color: #757575;
+.header-numer {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
 }
 
 .header-post:hover {
     color: #2196F3;
-        }
-.header-post{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+}
 
-color: #757575;
+.header-post {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
 
 }
-.hero-bisnes{
+
+.hero-bisnes {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 60px;
-/* or 136% */
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
 
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-background-color: #000000;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background-color: #000000;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
-.hero-button{
+
+.hero-button {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 30px;
-/* identical to box height, or 188% */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
 
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 
-color: #FFFFFF;
-background-color: #2196F3;
-
-}
-.about-detals{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-
-color: #212121;
+    color: #FFFFFF;
+    background-color: #2196F3;
 
 }
-.about-ideis{
+
+.about-detals {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-letter-spacing: 0.03em;
-
-color: #757575;
-}
-.mein-us-w{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+    color: #212121;
 
 }
-.mein-us{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 42px;
-text-align: center;
-letter-spacing: 0.03em;
 
-color: #212121;
+.about-ideis {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+
+.mein-us-w {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
 
 }
-.mein-worker{
+
+.mein-us {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #212121;
+    color: #212121;
 
 }
-.mein-work{
+
+.mein-worker {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-color: #757575;
+    color: #212121;
 
 }
-.footer-addres{
+
+.mein-work {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
 
-letter-spacing: 0.03em;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-color: #FFFFFF;
+    color: #757575;
 
 }
+
+.footer-addres {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+
+}
+
 .footer-adres {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 
 }
+
 .footer-numer {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 
 
 }
+
 .mein-button {
-    
-background: #2196F3;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
+
 .header-logo2 {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-color: #000000;
+    color: #000000;
 
 }
+
 .footer-logo {
     font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-/* identical to box height */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
 
-letter-spacing: 0.03em;
+    letter-spacing: 0.03em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
+
 .text {
     font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.03em;
-text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 
-color: #212121;  
+    color: #212121;
 }
+
 .text2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -283,229 +304,330 @@ color: #212121;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
-    
+
     letter-spacing: 0.03em;
-    
-    color: #757575; 
+
+    color: #757575;
 }
-.header-logo2{
+
+.header-logo2 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     /* identical to box height */
-    
+
     letter-spacing: 0.03em;
-    
+
     color: #2196F3;
-    
+
 }
 
 
 
 .header-studio2:hover {
     color: #2196F3;
-        }
-.header-studio2{
+}
+
+.header-studio2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    
-    color: #212121; 
+
+    color: #212121;
 }
 
 .header-portfolio2:hover {
     color: #2196F3;
-        }
-.header-portfolio2{
+}
 
-    
+.header-portfolio2 {
+
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    
+
     color: #01070c;
-    }
+}
 
-    .header-contakt2:hover {
-        color: #2196F3;
-            }
-    .header-contakt2{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.header-contakt2:hover {
+    color: #2196F3;
+}
 
-color: #212121; 
-    }
+.header-contakt2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-    .header-numer2:hover {
-        color: #5154e6;
-            }
-    .header-numer2{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    color: #212121;
+}
 
-color:#757575; 
-    }
+.header-numer2:hover {
+    color: #5154e6;
+}
 
-    .header-post2:hover {
-        color: #5154e6;
-            }
-    .header-post2{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        
-        color: #757575;
-    }
-    
-    }
-    .button{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-        /* identical to box height, or 162% */
-        
-        text-align: center;
-        letter-spacing: 0.03em;
-        
-        color: #FFFFFF;
-        background-color: #2196F3;
-    }
+.header-numer2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-    button:hover {
-       background-color:  #2196F3;
-       color: rgb(240, 242, 243);
-            }
+    color: #757575;
+}
+
+.header-post2:hover {
+    color: #5154e6;
+}
+
+.header-post2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+}
+
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+button:hover {
+    background-color: #2196F3;
+    color: rgb(240, 242, 243);
+}
 
 
 
 
-    .button{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
 
-text-align: center;
-letter-spacing: 0.03em;
+    text-align: center;
+    letter-spacing: 0.03em;
 
-color: #212121;
-    }
-    .button3{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+    color: #212121;
+}
 
-text-align: center;
-letter-spacing: 0.03em;
+.button3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
 
-color: #212121;
-    }
-    .button4{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
+    color: #212121;
+}
 
-color: #212121;
+.button4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
 
-    }
-    .button5{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-/* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
 
-text-align: center;
-letter-spacing: 0.03em;
+    color: #212121;
 
-color: #212121;
+}
 
-    }
-    .header-logo2{
-        color: #212121;
-    }
-    .footer-logo2{
-        color: #FFFFFF;
+.button5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+.header-logo2 {
+    color: #212121;
+}
+
+.footer-logo2 {
+    color: #FFFFFF;
 
     background-color: #000000;
-    }
-    .footer-addres2{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+}
 
-letter-spacing: 0.03em;
+.footer-addres2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
 
-color: #FFFFFF;
-    }
-    .footer-numer2{
-        font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-/* or 171% */
+    letter-spacing: 0.03em;
 
-letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
 
-color: rgba(255, 255, 255, 0.6);
-    }
-    .hero-bisnes{
-        
-    }
+.footer-numer2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
 
-.coteiner{
-width: 1170px;
-padding-left: 15px;
-padding-right: 15px;
-outline: solid red;
-margin-left: auto;
-margin-right: auto;
-    }
-   .hero-bisnes{
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-bisnes {}
+
+.coteiner {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-bisnes {
     padding-top: 209px;
     padding-bottom: 209px;
-   }
-   
-   
+}
 
-   
-   
+.about-detals {
+    display: flex;
+
+}
+
+.header-ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+
+    justify-content: space-aroun;
+
+}
+
+.header-ul2 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 100px;
+    margin-right: 100px;
+
+
+}
+
+.about {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.mein-us1 {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+}
+
+.mein {
+    display: fle;
+    justify-content: ;
+}
+
+.buttons2 {
+    display: flex;
+    justify-content: space-around;
+}
+.header-nav{
+    display: flex;
+}
+
+
+.header2 {
+    display: flex;
+    gap:32px ;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.numer2 {
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
     
-   
+}
+
+.mein2 {
+    margin-top: 94px;
+}
+
+.photo {
+    width: 370px;
+    height: 294px;
+}
+.ul-mein{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.footer2{
+    background-color:#2F303A;;
+}
+ .header-ul{
+    display: flex;
+    gap:32px ;
+    align-items: center;
+    margin-left: 93px;
+ }
+ .header-ul2{
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+ }
+ .header-nav{
+    display: flex;
+ }
