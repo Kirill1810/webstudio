@@ -102,7 +102,7 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    background-color: #000000;
+    background: #2F303A;
 
     color: #FFFFFF;
 }
@@ -122,6 +122,7 @@
 
     color: #FFFFFF;
     background-color: #2196F3;
+    
 
 }
 
@@ -135,6 +136,7 @@
     text-transform: uppercase;
 
     color: #212121;
+
 
 }
 
@@ -161,6 +163,7 @@
     letter-spacing: 0.03em;
 
     color: #212121;
+    gap: 50px;
 
 }
 
@@ -204,6 +207,7 @@
     letter-spacing: 0.03em;
 
     color: #757575;
+    
 
 }
 
@@ -249,6 +253,7 @@
 
 
 }
+
 
 .mein-button {
 
@@ -522,7 +527,11 @@ button:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.hero-bisnes {}
+.hero-bisnes {
+    display: flex;
+    justify-content: center;
+
+}
 
 .coteiner {
     width: 1170px;
@@ -564,6 +573,7 @@ button:hover {
 .about {
     display: flex;
     justify-content: flex-end;
+    gap: 30px;
 }
 
 .mein-us1 {
@@ -574,22 +584,23 @@ button:hover {
 }
 
 .mein {
-    display: fle;
-    justify-content: ;
+    display: flex;
+    gap: 30px;
 }
 
 .buttons2 {
     display: flex;
     justify-content: space-around;
 }
-.header-nav{
+
+.header-nav {
     display: flex;
 }
 
 
 .header2 {
     display: flex;
-    gap:32px ;
+    gap: 32px;
     align-items: center;
     margin-left: 93px;
 }
@@ -598,7 +609,7 @@ button:hover {
     display: flex;
     margin-left: auto;
     gap: 50px;
-    
+
 }
 
 .mein2 {
@@ -609,25 +620,58 @@ button:hover {
     width: 370px;
     height: 294px;
 }
-.ul-mein{
+
+.ul-mein {
     display: flex;
     gap: 30px;
     flex-wrap: wrap;
 }
-.footer2{
-    background-color:#2F303A;;
+
+.footer2 {
+    background-color: #2F303A;
+    ;
 }
- .header-ul{
+
+.header-ul {
     display: flex;
-    gap:32px ;
+    gap: 32px;
     align-items: center;
     margin-left: 93px;
- }
- .header-ul2{
+}
+
+.header-ul2 {
     display: flex;
     margin-left: auto;
     gap: 50px;
- }
- .header-nav{
+}
+
+.header-nav {
     display: flex;
- }
+}
+
+.our-work {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 94px;
+    
+}
+
+.photo0 {
+    width: 370px;
+    height: 294px;
+}
+.mein-us2{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+padding-top: 94px;
+}
+.footer{
+    background: #2F303A;
+}
