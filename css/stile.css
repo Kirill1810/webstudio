@@ -105,6 +105,11 @@
     background: #2F303A;
 
     color: #FFFFFF;
+    width: 696px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+
 }
 
 .hero-button {
@@ -122,6 +127,11 @@
 
     color: #FFFFFF;
     background-color: #2196F3;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
     
 
 }
@@ -527,11 +537,9 @@ button:hover {
     color: rgba(255, 255, 255, 0.6);
 }
 
-.hero-bisnes {
-    display: flex;
-    justify-content: center;
 
-}
+    
+
 
 .coteiner {
     width: 1170px;
@@ -542,10 +550,7 @@ button:hover {
     margin-right: auto;
 }
 
-.hero-bisnes {
-    padding-top: 209px;
-    padding-bottom: 209px;
-}
+
 
 .about-detals {
     display: flex;
@@ -561,16 +566,17 @@ button:hover {
 
 }
 
-.header-ul2 {
+.header-kontact{
     display: flex;
     justify-content: flex-end;
     gap: 100px;
-    margin-right: 100px;
+    margin-left: auto;
+    align-items: center;
 
 
 }
 
-.about {
+.about-list {
     display: flex;
     justify-content: flex-end;
     gap: 30px;
@@ -674,4 +680,37 @@ padding-top: 94px;
 }
 .footer{
     background: #2F303A;
+}
+.header-nav{
+ outline:solid blue;
+width: 100%;
+}
+.header-conteiner{
+    display: flex;
+}
+.hero{
+    background-color:#2F303A;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+.hero-button{
+    margin: auto;
+}
+.about{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+.mein-us-w{
+    
+    margin-bottom: 50px;
+}
+.mein-worker{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.mein{
+    padding-bottom: 94px;
+    
 }
