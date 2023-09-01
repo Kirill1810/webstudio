@@ -1,4 +1,18 @@
-.header-logo {
+.header-logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+padding-bottom: 25px;
+padding-top: 24px;
+}
+.header-logo4 {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -12,6 +26,46 @@
 
 }
 
+.header-logo3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
+.header-logo2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
+.header-logo10 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+
+padding-top: 60px;
+}
 .header-studio:hover {
     color: #2196F3;
 }
@@ -25,7 +79,8 @@
     letter-spacing: 0.02em;
 
     color: #151a1f;
-
+padding-left: 93px;
+padding-right: 30px;
 }
 
 .header-portfolio:hover {
@@ -41,6 +96,9 @@
     letter-spacing: 0.02em;
 
     color: #212121;
+    padding-right: 30px;
+    padding-bottom: 32px;
+
 }
 
 
@@ -173,7 +231,8 @@
     letter-spacing: 0.03em;
 
     color: #212121;
-    gap: 50px;
+    padding-bottom: 50px;
+
 
 }
 
@@ -217,6 +276,8 @@
     letter-spacing: 0.03em;
 
     color: #757575;
+    padding-bottom: 30px;
+    padding-top: 10px;
     
 
 }
@@ -232,6 +293,7 @@
     letter-spacing: 0.03em;
 
     color: #FFFFFF;
+    padding-top: 20px;
 
 }
 
@@ -246,6 +308,7 @@
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+    padding: 9px;
 
 }
 
@@ -260,6 +323,7 @@
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
+    padding-bottom: 60px;
 
 
 }
@@ -554,6 +618,7 @@ button:hover {
 
 .about-detals {
     display: flex;
+    padding-bottom: 10px;
 
 }
 
@@ -578,8 +643,8 @@ button:hover {
 
 .about-list {
     display: flex;
-    justify-content: flex-end;
     gap: 30px;
+
 }
 
 .mein-us1 {
@@ -665,6 +730,7 @@ button:hover {
 .photo0 {
     width: 370px;
     height: 294px;
+    padding-left: 30px;
 }
 .mein-us2{
     color: #212121;
@@ -699,8 +765,9 @@ width: 100%;
     margin: auto;
 }
 .about{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 93px;
+    padding-bottom: 93px;
+    
 }
 .mein-us-w{
     
