@@ -418,6 +418,8 @@ flex-shrink: 0;
     text-transform: uppercase;
 
     color: #212121;
+    margin-top: 20px;
+    margin-left: 24px;
 }
 
 .text2 {
@@ -431,6 +433,8 @@ flex-shrink: 0;
     letter-spacing: 0.03em;
 
     color: #757575;
+    margin-top: 4px;
+    margin-left: 24px;
 }
 
 .header-logo2 {
@@ -551,7 +555,12 @@ button:hover {
 
 .dddi{ 
 background: #FFF;
-box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
+
+}
+.dddi:hover{
+    background: #FFF;
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);  
 }
 
 
@@ -655,8 +664,13 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
 }
 
 
-    
+    .our-text{
+        padding-bottom: 94px;
+    }
 
+    .mein{
+        background-color: #F5F4FA;
+    }
 
 .coteiner {
     width: 1170px;
@@ -673,7 +687,12 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
     display: flex;
     padding-bottom: 10px;
 
+
 }
+.about-detals:before{
+    
+}
+
 
 .header-ul {
     display: flex;
@@ -820,7 +839,7 @@ width: 100%;
     display: flex;
 }
 .hero{
-    background-image: url(/img/Img.png);
+    background-image: url(/img/imggg.png);
     padding-top: 200px;
     padding-bottom: 200px;
     
