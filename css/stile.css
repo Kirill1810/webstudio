@@ -158,6 +158,10 @@ padding-right: 30px;
 
 }
 
+.header-conteiner{
+    outline: none;
+}
+
 .hero-bisnes {
     font-family: 'Roboto';
     font-style: normal;
@@ -658,7 +662,7 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: solid red;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -690,6 +694,16 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
 
 }
 
+.button{
+    border-radius: 4px;
+background: #F5F4FA;
+}
+
+
+.header-nav{
+    outline: none;
+}
+
 .about-list {
     display: flex;
     gap: 30px;
@@ -711,7 +725,9 @@ box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0
 .buttons2 {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
+
 
 .header-nav {
     display: flex;
@@ -797,7 +813,7 @@ padding-top: 94px;
     background: #2F303A;
 }
 .header-nav{
- outline:solid blue;
+ 
 width: 100%;
 }
 .header-conteiner{
