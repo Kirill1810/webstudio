@@ -12,6 +12,13 @@
 padding-bottom: 25px;
 padding-top: 24px;
 }
+
+.hero{
+    background-image: url(./imggg.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
 .header-logo4 {
     font-family: 'Raleway';
     font-style: normal;
@@ -23,6 +30,61 @@ padding-top: 24px;
     letter-spacing: 0.03em;
 
     color: #2196F3;
+
+}
+
+.about-item1::before{
+    display: block;
+    width: 100px;
+    height: 120px;
+    background-color: #F5F4FA;
+content: url(./antenna1.png);
+padding-top: 27px;
+padding-left: 100px;
+padding-right: 100px;
+
+
+
+}
+
+.about{
+height: 270px;
+}
+
+.about-item2::before{
+content: url(./clock1.png);
+display: block;
+width: 100px;
+height: 120px;
+padding-left: 100px;
+padding-right: 100px;
+background-color: #F5F4FA;
+padding-top: 27px;
+
+
+}
+
+.about-item3::before{
+    content: url(./diagram1.png);
+    display: block;
+    width: 100px;
+    height: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F5F4FA;
+    padding-top: 27px;
+
+}
+
+.about-item4::before{
+    content: url(./astronaut1.png);
+    display: block;
+    width: 100px;
+    height: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #F5F4FA;
+    padding-top: 27px;
 
 }
 
@@ -838,12 +900,7 @@ width: 100%;
 .header-conteiner{
     display: flex;
 }
-.hero{
-    background-image: url(/img/imggg.png);
-    padding-top: 200px;
-    padding-bottom: 200px;
-    
-}
+
 
 .hero-button{
     margin: auto;
@@ -851,6 +908,7 @@ width: 100%;
 .about{
     padding-top: 93px;
     padding-bottom: 93px;
+
     
 }
 .mein-us-w{
