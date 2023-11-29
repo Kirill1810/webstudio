@@ -17,7 +17,18 @@ padding-top: 24px;
     background-image: url(./imggg.png);
     padding-top: 200px;
     padding-bottom: 200px;
+    
 }
+
+.hor{
+width: 20000px;
+height: 600px;
+position: absolute;
+background: rgba( 0, 0, 0, 0.5);
+left: 0;
+top: 87px;
+}
+
 
 .header-logo4 {
     font-family: 'Raleway';
