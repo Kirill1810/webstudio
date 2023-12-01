@@ -14,20 +14,16 @@ padding-top: 24px;
 }
 
 .hero{
-    background-image: url(./imggg.png);
+    /* background-image:  url(./imggg.png);
+    background: linear-gradient(to right, rgba(9, 5, 47, .85) 10%, rgba(49, 29, 94, .85) 10%); */
     padding-top: 200px;
     padding-bottom: 200px;
-    
+    background: rgba(47, 48, 58, 0.40), url(./imggg.png);
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.40) 0%, rgba(47, 48, 58, 0.40) 100%), url(./imggg.png);
 }
 
-.hor{
-width: 20000px;
-height: 600px;
-position: absolute;
-background: rgba( 0, 0, 0, 0.5);
-left: 0;
-top: 87px;
-}
+
 
 
 .header-logo4 {
@@ -45,14 +41,19 @@ top: 87px;
 }
 
 .about-item1::before{
+    background-position: center;
+    background-image: url(./antenna1.png);
+    background-repeat: no-repeat;
+    content: "";
     display: block;
     width: 100px;
     height: 120px;
     background-color: #F5F4FA;
-content: url(./antenna1.png);
+    border-radius: 4px;
 padding-top: 27px;
 padding-left: 100px;
 padding-right: 100px;
+padding-top: 25px;
 
 
 
@@ -63,39 +64,53 @@ height: 270px;
 }
 
 .about-item2::before{
-content: url(./clock1.png);
+    background-position: center;
+    background-image: url(./clock1.png);
+    background-repeat: no-repeat;
+    content: "";
 display: block;
 width: 100px;
 height: 120px;
 padding-left: 100px;
 padding-right: 100px;
 background-color: #F5F4FA;
-padding-top: 27px;
+padding-top: 25px;
+border-radius: 4px;
 
 
 }
 
 .about-item3::before{
-    content: url(./diagram1.png);
+    background-position: center;
+    background-image: url(./diagram1.png);
+    background-repeat: no-repeat;
+    content: "";
     display: block;
     width: 100px;
     height: 120px;
     padding-left: 100px;
     padding-right: 100px;
+    border-radius: 4px;
     background-color: #F5F4FA;
-    padding-top: 27px;
+    padding-top: 25px;
+
 
 }
 
 .about-item4::before{
-    content: url(./astronaut1.png);
+    content: " ";
+    background-image: url(./astronaut1.png);
+    background-repeat: no-repeat;
     display: block;
     width: 100px;
     height: 120px;
     padding-left: 100px;
     padding-right: 100px;
     background-color: #F5F4FA;
-    padding-top: 27px;
+    padding-top: 25px;
+    background-position: center;
+    border-radius: 4px;
+
 
 }
 
@@ -758,7 +773,9 @@ background: #FFF;
 
 .about-detals {
     display: flex;
-    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+
 
 
 }
@@ -817,7 +834,8 @@ background: #F5F4FA;
 .buttons2 {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 50px;
+    
+
 }
 
 
@@ -933,4 +951,10 @@ width: 100%;
 .mein{
     padding-bottom: 94px;
     
+}
+
+.header-portfolioo{
+    border-bottom: 1px solid  #ECECEC;
+    padding-bottom: 25px; 
+    padding-top: 24px;
 }
