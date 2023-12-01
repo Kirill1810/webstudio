@@ -643,6 +643,7 @@ button:hover {
 
 .dddi{ 
 background: #FFF;
+border: 1px solid #EEE;
 
 
 }
@@ -754,6 +755,7 @@ background: #FFF;
 
     .our-text{
         padding-bottom: 94px;
+        padding-top: 50px;
     }
 
     .mein{
@@ -780,7 +782,7 @@ background: #FFF;
 
 }
 .about-detals:before{
-    
+    /* ю */
 }
 
 
@@ -862,6 +864,7 @@ background: #F5F4FA;
     margin-top: 94px;
 }
 
+
 .photo {
     width: 370px;
     height: 294px;
@@ -869,8 +872,9 @@ background: #F5F4FA;
 
 .ul-mein {
     display: flex;
-    gap: 30px;
+    gap: 27px;
     flex-wrap: wrap;
+
 }
 
 .footer2 {
