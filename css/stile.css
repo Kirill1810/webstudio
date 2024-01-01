@@ -650,6 +650,84 @@ fill: #AFB1B8;
     margin-left: 24px;
 }
 
+
+.join{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase; 
+}
+
+.footer-svg1{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+fill: #ECECEC;
+background-color: rgba(255, 255, 255, 0.1);
+padding: 12px;
+border-radius: 50px;
+margin-top: 21px;
+
+    
+}
+
+.footer-svg-div{
+    display: flex;
+    gap: 10px;
+}
+
+footer{
+    display: flex;
+}
+
+
+
+.coteiner-foot1{
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.jjoin{
+    margin-top: 75px;
+    margin-left: 156px;
+
+}
+
+
+
+
+
+.footer-svg1:hover{
+   fill: #FFF;
+   background: #2196F3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text2 {
     font-family: 'Roboto';
     font-style: normal;
@@ -698,7 +776,11 @@ fill: #AFB1B8;
 
 .header-portfolio2:hover {
     color: #2196F3;
+
+
 }
+
+
 
 .header-portfolio2 {
 
