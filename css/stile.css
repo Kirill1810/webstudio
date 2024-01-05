@@ -703,29 +703,33 @@ footer{
 }
 
 
-
-
-
 .footer-svg1:hover{
    fill: #FFF;
    background: #2196F3;
 }
 
 
+.svg-team{
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+    padding-bottom: 30px;
+}
 
+.svg-all{
+    width: 20px;
+    height: 20px;
+    fill: #757575;
+    padding: 12px;
+    
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.svg-all:hover{
+    background: #2196F3;
+    fill: #ECECEC;
+    border-radius: 50px;
+}
 
 
 .text2 {
@@ -1183,4 +1187,21 @@ width: 100%;
     border-bottom: 1px solid  #ECECEC;
     padding-bottom: 25px; 
     padding-top: 24px;
+}
+.head-li{
+    display: flex;
+    gap: 10px;
+    
+
+}
+
+.head-li:hover{
+    fill: #2196F3;
+    color: #2196F3;
+}
+
+.svg-head{
+    width: 16px;
+    height: 12px;
+
 }
