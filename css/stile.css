@@ -721,15 +721,37 @@ footer{
     height: 20px;
     fill: #757575;
     padding: 12px;
-    
-    
 }
 
+
+
+
+
+
 .svg-all:hover{
+    fill: #ECECEC;
+}
+
+
+.mein-svg:hover{
     background: #2196F3;
     fill: #ECECEC;
-    border-radius: 50px;
+    border-radius: 50px; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .text2 {
