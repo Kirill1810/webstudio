@@ -662,18 +662,39 @@ fill: #AFB1B8;
     text-transform: uppercase; 
 }
 
-.footer-svg1{
+.footer-svg2{
     width: 20px;
     height: 20px;
     flex-shrink: 0;
 fill: #ECECEC;
-background-color: rgba(255, 255, 255, 0.1);
 padding: 12px;
-border-radius: 50px;
-margin-top: 21px;
 
+  
+}
+
+
+
+
+.footer-halper{
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    margin-top: 21px;
     
 }
+
+
+.footer-halper:hover{
+background-color: #2196F3;
+border-radius: 50px;
+width: 44px;
+height: 44px;
+}
+
+
+
+
 
 .footer-svg-div{
     display: flex;
