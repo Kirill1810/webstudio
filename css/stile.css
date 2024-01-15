@@ -1102,6 +1102,79 @@ background: #F5F4FA;
     gap: 30px;
 }
 
+
+.position{
+    color:#FFF ;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+position: absolute;
+bottom: -615px;
+left: 374px;
+z-index: 2;
+background-color: ;
+background: rgba(47, 48, 58, 0.80);
+padding-left: 107px;
+padding-right: 107px;
+padding-top: 27px;
+padding-bottom: 27px;
+
+
+}
+
+.position2{
+    color:#FFF ;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -615px;
+    left: 764px;
+    z-index: 2;
+    background-color: ;
+    background: rgba(47, 48, 58, 0.80);
+    padding-left: 94px;
+    padding-right: 96px;
+    padding-top: 27px;
+    padding-bottom: 27px; 
+    
+}
+
+.position3{
+    color:#FFF ;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: -615px;
+    left: 1154px;
+    z-index: 2;
+    background-color: ;
+    background: rgba(47, 48, 58, 0.80);
+    padding-left: 116px;
+    padding-right: 110px;
+    padding-top: 27px;
+    padding-bottom: 27px;  
+}
+
+
+
+
+
+
+
 .buttons2 {
     display: flex;
     justify-content: space-around;
@@ -1180,6 +1253,33 @@ background: #F5F4FA;
     height: 294px;
     padding-left: 30px;
 }
+
+.photo1{
+    width: 370px;
+    height: 294px;
+    padding-left: 30px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .mein-us2{
     color: #212121;
 text-align: center;
