@@ -758,8 +758,14 @@ footer{
     background: #2196F3;
     fill: #ECECEC;
     border-radius: 50px; 
+
 }
 
+.mein-svg{
+    width: 44px;
+height: 44px;
+
+}
 
 
 
