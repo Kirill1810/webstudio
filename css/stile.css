@@ -1367,7 +1367,7 @@ z-index: 2;
 .modal-inputs{
    background-color: #FFF; 
    width: 528px;
-    height: 700px;
+    height: 749px;
     z-index: 3;
     position: fixed;
   top: 25%;
@@ -1556,3 +1556,12 @@ margin-top: 3px;
 .modal-svg2:hover{
     fill: #2196F3;
 }
+
+
+
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+
