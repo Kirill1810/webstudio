@@ -1329,10 +1329,45 @@ background: rgba(0, 0, 0, 0.20);
 position: fixed;
 }
 
+.modal-cros{
+    width: 11px;
+height: 11px;
+flex-shrink: 0;
+background-color: #EEE;
+position: relative;
+left: 500px;
+top: -50px;
+z-index: 3;
+
+}
+
+.modal-cross{
+fill: #FFF;
+width: 30px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 50px;
+stroke-width: 1px;
+stroke: rgba(0, 0, 0, 0.10);
+position: relative;
+left: 491px;
+top: -75px;
+z-index: 2;
+
+
+}
+
+
+
+
+
+
+
+
 .modal-inputs{
    background-color: #FFF; 
    width: 528px;
-    height: 581px;
+    height: 700px;
     z-index: 3;
     position: fixed;
   top: 25%;
@@ -1352,6 +1387,9 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 0.6px;
 padding-left: 40px;
+padding-top: 40px;
+position: relative;
+top: 20px;
 }
 
 .modal-text{
@@ -1389,6 +1427,20 @@ padding-top: 12px;
 
 
 
+
+.modal-svg{
+    width: 18px;
+height: 18px;
+flex-shrink: 0;
+position: relative;
+top: 36px;
+left: 12px;
+}
+
+
+.modal-svg:hover{
+    fill: rgba(33, 150, 243, 1) 
+}
 
 
 
@@ -1429,9 +1481,19 @@ letter-spacing: 0.12px;
 
 
 
+.modal-div{
+    display: flex;
+    margin-top: 25px;
+}
 
 
 
+
+
+.modal-a{
+    display: block;
+
+}
 
 
 
@@ -1457,4 +1519,40 @@ margin-left: 140px;
 margin-top: 60px;
 margin-bottom: px;
 
+}
+
+
+.apru-text{
+    color: #757575;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+letter-spacing: 0.42px;
+}
+
+
+.modal-a{
+    color: #2196F3;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.42px;
+text-decoration-line: underline;
+}
+
+.modal-svg2{
+    width: 16px;
+height: 15px;
+flex-shrink: 0;
+margin-right: 8px;
+margin-top: 3px;
+
+}
+
+.modal-svg2:hover{
+    fill: #2196F3;
 }
