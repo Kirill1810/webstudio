@@ -1565,3 +1565,93 @@ margin-top: 3px;
 }
 
 
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.fg{
+    opacity: 0;
+}
+
+.fg:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+.resurs-li{
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+background: rgba(33, 150, 243, 0.90);
+margin-top: 40px;
+height: 310px;
+opacity: 0;
+}
+
+
+.resurs-li:hover{
+    opacity: 1;
+}
+
+
+
+.resurs:hover{
+    opacity: 1;
+}
+
+
+
+
+.resurs{
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 322px;
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 155.556% */
+letter-spacing: 0.54px;
+opacity: 0;
+
+}
+
+
+
+.portfolio-box{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 220px;
+    bottom: 0px;
+    gap: 30px;
+    width: 1170px;
+    left: 345px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
