@@ -175,6 +175,8 @@ padding-top: 60px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+    
+    transition: 250ms;
 
     color:#2196F3 ;
 padding-left: 93px;
@@ -192,6 +194,9 @@ padding-right: 30px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
+    transition: 250ms;
+    
 
     color: #212121;
     padding-right: 30px;
@@ -212,6 +217,8 @@ padding-right: 30px;
     line-height: 16px;
     letter-spacing: 0.02em;
 
+    transition: 250ms;
+
     color: #212121;
 }
 
@@ -228,6 +235,8 @@ padding-right: 30px;
     line-height: 16px;
     letter-spacing: 0.02em;
 
+    transition: 250ms;
+
     color: #757575;
 }
 
@@ -242,6 +251,8 @@ padding-right: 30px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
+
+    transition: 250ms;
 
     color: #757575;
 
@@ -432,6 +443,7 @@ padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
 fill: #AFB1B8;
+transition: 900ms;
 }
 
 .icon2{
@@ -443,6 +455,7 @@ padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
 fill: #AFB1B8;
+transition: 900ms;
 }
 
 
@@ -455,6 +468,7 @@ padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
 fill: #AFB1B8;
+transition: 900ms;
 }
 
 
@@ -467,6 +481,7 @@ padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
 fill: #AFB1B8;
+transition: 900ms;
 }
 
 
@@ -479,6 +494,7 @@ padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
 fill: #AFB1B8;
+transition: 900ms;
 }
 
 
@@ -491,6 +507,7 @@ padding-right: 32px;
 padding-top: 16px;
 padding-bottom: 16px;
 fill: #AFB1B8;
+transition: 900ms;
 }
 
 
@@ -671,6 +688,7 @@ padding: 12px;
     width: 44px;
     height: 44px;
     margin-top: 21px;
+    transition: 250ms;
     
 }
 
@@ -716,6 +734,10 @@ footer{
    background: #2196F3;
 }
 
+.footer-svg1{
+    transition: 250ms;
+}
+
 
 .svg-team{
     display: flex;
@@ -729,6 +751,7 @@ footer{
     height: 20px;
     fill: #757575;
     padding: 12px;
+    transition: 250ms;
 }
 
 
@@ -747,6 +770,7 @@ footer{
 .mein-svg{
     width: 44px;
 height: 44px;
+transition: 250ms;
 
 }
 
@@ -794,7 +818,7 @@ height: 44px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    transition: 250ms;
     color: #212121;
 }
 
@@ -813,7 +837,7 @@ height: 44px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    transition: 250ms;
     color: #2196F3;
 }
 
@@ -828,7 +852,7 @@ height: 44px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    transition: 250ms;
     color: #212121;
 }
 
@@ -843,7 +867,7 @@ height: 44px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    transition: 250ms;
     color: #757575;
 }
 
@@ -858,7 +882,7 @@ height: 44px;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    transition: 250ms;
     color: #757575;
 }
 
@@ -871,7 +895,7 @@ height: 44px;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
-
+    transition: 250ms;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -889,6 +913,7 @@ button:hover {
 background: #FFF;
 border: 1px solid #EEE;
 height: 454px;
+width: 370px;
 
 
 }
@@ -908,7 +933,7 @@ height: 454px;
 
     text-align: center;
     letter-spacing: 0.03em;
-
+    transition: 250ms;
     color: #212121;
     margin-left: 8px;
 }
@@ -920,7 +945,7 @@ height: 454px;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
-
+    transition: 250ms;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -934,7 +959,7 @@ height: 454px;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
-
+    transition: 250ms;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -949,7 +974,7 @@ height: 454px;
     font-size: 16px;
     line-height: 26px;
     /* identical to box height, or 162% */
-
+    transition: 250ms;
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -976,7 +1001,7 @@ height: 454px;
     /* or 171% */
 
     letter-spacing: 0.03em;
-
+    transition: 250ms;
     color: #FFFFFF;
 }
 
@@ -987,7 +1012,7 @@ height: 454px;
     font-size: 14px;
     line-height: 24px;
     /* or 171% */
-
+    transition: 250ms;
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.6);
@@ -1292,7 +1317,7 @@ width: 100%;
 .head-li{
     display: flex;
     gap: 10px;
-    
+    transition: 250ms;
 
 }
 
@@ -1441,6 +1466,7 @@ flex-shrink: 0;
 position: relative;
 top: 36px;
 left: 12px;
+transition: 250ms;
 }
 
 
@@ -1457,11 +1483,25 @@ left: 12px;
 border: 1px solid #2196F3;
 }
 
+.modal-input{
+    transition: 250ms;
+}
+
 
 .lnput-bg{
     border-radius: 4px;
 border: 1px solid #2196F3;
 }
+
+.input-bg{
+    transition: 250ms;
+}
+
+
+
+
+
+
 
 .input-bg1:hover{
     border-radius: 4px;
@@ -1472,7 +1512,7 @@ border: 1px solid #2196F3;
 width: 448px;
 height: 120px;
 color: rgba(117, 117, 117, 0.50);
-
+transition: 250ms;
 font-family: Roboto;
 font-size: 12px;
 font-style: normal;
@@ -1556,7 +1596,7 @@ height: 15px;
 flex-shrink: 0;
 margin-right: 8px;
 margin-top: 3px;
-
+transition: 250ms;
 }
 
 .modal-svg2:hover{
@@ -1599,6 +1639,7 @@ background: rgba(33, 150, 243, 0.90);
 margin-top: 40px;
 height: 310px;
 opacity: 0;
+
 }
 
 
@@ -1616,36 +1657,36 @@ opacity: 0;
 
 
 .resurs{
-
-
-bottom: 295px;
-padding-right: 24px;
-padding-left: 24px;
-right: 0px;
-    margin-top: px;
-    margin-left: px;
-    width: 322px;
-    color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 28px; /* 155.556% */
-letter-spacing: 0.54px;
-opacity: 0;
-position: relative;
-background: rgba(33, 150, 243, 0.90);
-padding-top: 63px;
-padding-bottom: 63px;
-margin-bottom: 0;
-
-
-
-
-
-
-
+    bottom: 295px;
+    padding-right: 24px;
+    padding-left: 24px;
+    right: 0px;
+        margin-top: px;
+        margin-left: px;
+        width: 322px;
+        color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    letter-spacing: 0.54px;
+    opacity: 0;
+    position: relative;
+    background: rgba(33, 150, 243, 0.90);
+    padding-top: 63px;
+    padding-bottom: 63px;
+    margin-bottom: 0; 
+    transition: 250ms;
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1672,6 +1713,7 @@ display: block;
 opacity: 1;
 position: relative;
 top: 6px;
+transition: 250ms;
 }
 
 
