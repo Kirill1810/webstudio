@@ -1340,7 +1340,7 @@ width: 100%;
 
 .modal{
   
-    top: 0;
+    top: 0px;
     bottom: 0;
     right: 0;
     left: 0;
@@ -1358,6 +1358,7 @@ width:100vw;
 height:100vh;
 background: rgba(0, 0, 0, 0.20);
 position: fixed;
+
 }
 
 .modal-cros{
@@ -1381,12 +1382,26 @@ border-radius: 50px;
 stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.10);
 position: relative;
-left: 491px;
-top: -75px;
+left: 480px;
+top: -60px;
 z-index: 2;
-
-
 }
+
+.modal-cros2{
+    fill: black;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    stroke-width: 1px;
+    stroke: rgba(0, 0, 0, 0.10);
+    position: relative;
+    left: 0px;
+    top: 2px;
+    z-index: 2;
+   
+}
+
 
 
 
@@ -1404,6 +1419,8 @@ z-index: 2;
   top: 25%;
   left: 37%;
   padding-left: 40px;
+  top: 100px;
+  border-radius: 2%;
 
 }
 
@@ -1441,6 +1458,7 @@ height: 40px;
 flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
+padding-left: 33px;
 
 }
 
@@ -1452,6 +1470,7 @@ border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 padding-bottom: 84px;
 padding-top: 12px;
+
 
 }
 
@@ -1481,21 +1500,27 @@ transition: 250ms;
 .modal-input:hover{
     border-radius: 4px;
 border: 1px solid #2196F3;
+
+
+
+
 }
 
 .modal-input{
     transition: 250ms;
+    padding-right: 20px;
 }
 
 
 .lnput-bg{
     border-radius: 4px;
 border: 1px solid #2196F3;
+transition: 250ms;
 }
 
-.input-bg{
-    transition: 250ms;
-}
+
+
+
 
 
 
