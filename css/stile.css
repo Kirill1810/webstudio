@@ -240,9 +240,9 @@ padding-right: 30px;
     color: #757575;
 }
 
-.header-post:hover {
+.header-post:hover{
     color: #2196F3;
-    
+   
 }
 
 .header-post {
@@ -1319,20 +1319,33 @@ width: 100%;
     display: flex;
     gap: 10px;
     transition: 250ms;
+   
+
 
 }
 
 .head-li:hover{
-    fill: #2196F3;
+   
     color: #2196F3;
+    .svg-head{
+        fill: #2196F3;
+    }
+    .svg-head1{
+        fill: #2196F3;
+    }
 }
 
 .svg-head{
     width: 16px;
     height: 12px;
     fill: #757575;
+    margin-top: 2px;
 
 }
+
+
+
+
 
 .svg-head1{
     width: 10px;
@@ -1340,7 +1353,7 @@ width: 100%;
     fill: #757575;
 }
 
-.svg-head:hover{
+.svg-head:hover {
     fill: #2196F3;
 }
 
@@ -1398,7 +1411,7 @@ stroke-width: 1px;
 stroke: rgba(0, 0, 0, 0.10);
 position: relative;
 left: 480px;
-top: -60px;
+top: -80px;
 z-index: 2;
 }
 
@@ -1413,7 +1426,20 @@ z-index: 2;
 
 
 
+.df{
+    margin-top: 0px;
+    margin-bottom: 38px;
+   width: 0px;
+   height: 30px;
 
+}
+
+.df:hover{
+.modal-svg{
+    fill: #2196F3;
+}
+
+}
 
 
 
@@ -1435,6 +1461,19 @@ z-index: 2;
 
 
 
+input-{
+    margin-top: 0px;
+     margin-bottom: 15px;
+    width: 0px;
+    height: 30px;
+    
+}
+
+.input-dg:hover{
+    .modal-svg{
+        fill: #2196F3;
+    }
+}
 
 
 
@@ -1451,7 +1490,8 @@ z-index: 2;
   left: 37%;
   padding-left: 40px;
   top: 100px;
-  border-radius: 2%;
+  border-radius: 0.9%;
+
 
 
 }
@@ -1470,6 +1510,7 @@ padding-left: 40px;
 padding-top: 40px;
 position: relative;
 top: 20px;
+margin-bottom: 40px;
 }
 
 .modal-text{
@@ -1480,8 +1521,8 @@ top: 20px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.12px; 
-    margin-bottom: 4px;
-    margin-top: 10px;
+    margin-bottom: -10px;
+    margin-top: 0px;
 }
 
 .modal-input{
@@ -1491,7 +1532,7 @@ flex-shrink: 0;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 padding-left: 33px;
-
+margin-top: 0;
 }
 
 .modal-input1{
@@ -1501,6 +1542,7 @@ padding-left: 33px;
 border-radius: 4px;
 border: 1px solid rgba(33, 33, 33, 0.20);
 padding-bottom: 84px;
+margin-top: 12px;
 padding-top: 12px;
 
 
@@ -1532,9 +1574,6 @@ transition: 250ms;
 .modal-input:hover{
     border-radius: 4px;
 border: 1px solid #2196F3;
-
-
-
 
 }
 
@@ -1619,7 +1658,7 @@ letter-spacing: 0.12px;
 background: #2196F3;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 margin-left: 140px;
-margin-top: 60px;
+margin-top: 25px;
 margin-bottom: px;
 
 }
