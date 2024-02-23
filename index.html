@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/stile.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
 
 </head>
@@ -65,7 +66,7 @@
 
         <section class="hero">
             <div class="coteiner">
-                <h1 class="hero-bisnes">Ефективні рішення для вашого бізнесу </h1>
+                <h1  class="hero-bisnes">Ефективні рішення для вашого бізнесу </h1>
 
                 <button data-modal-open class="hero-button" type="button">Замовити послугу</button>
 
@@ -109,10 +110,10 @@
         </section>
 
 
-        <section class="mein-us1">
+        <section   class="mein-us1">
             <div class="coteiner">
-                <h2 class="mein-us-w">Чим ми займаємося</h2>
-                <ul class="our-work">
+                <h2 data-aos="fade-up"  class="mein-us-w">Чим ми займаємося</h2>
+                <ul  data-aos="fade-up"  class="our-work">
                     <li> <img src="./img/box1.jpg" alt="комп1" class="photo0">
                     <p class="position">Десктопні додатки</p></li>
 
@@ -132,8 +133,8 @@
 
         <section class="mein">
             <div class="coteiner">
-                <h2 class="mein-us2">Наша команда</h2>
-                <ul class="mein">
+                <h2 data-aos="fade-up" class="mein-us2">Наша команда</h2>
+                <ul data-aos="fade-up" class="mein">
                     <li class="sssc">
                         <img src="./img/img2.jpg" alt="фото-людини " class="photo1">
                         <h3 class="mein-worker">Ігор Дем'яненко</h3>
@@ -220,36 +221,36 @@
                 <h3 class="clients-text"> Постійні клієнти</h3>
                 <ul class="clients-ul">
 
-                    <li class="icons">
+                    <li data-aos="fade-right" class="icons">
                         <svg class="icon1">
                             <use href="./img/symbol-defs.svg#icon-client-1"></use>
                         </svg>
                     </li>
 
-                    <li class="icons">
+                    <li data-aos="fade-right" class="icons">
                         <svg class="icon2">
                             <use href="./img/symbol-defs.svg#icon-client-6"></use>
                         </svg>
-                    </li class="icons">
+                    </li>
 
-                    <li class="icons">
+                    <li data-aos="fade-right" class="icons">
                         <svg class="icon3">
                             <use href="./img/symbol-defs.svg#icon-client-2"></use>
                         </svg>
                     </li>
-                    <li class="icons">
+                    <li data-aos="fade-left" class="icons">
                         <svg class="icon4">
                             <use href="./img/symbol-defs.svg#icon-client-3"></use>
                         </svg>
                     </li>
 
-                    <li class="icons">
+                    <li data-aos="fade-left" class="icons">
                         <svg class="icon5">
                             <use href="./img/symbol-defs.svg#icon-client-4"></use>
                         </svg>
                     </li>
 
-                    <li class="icons">
+                    <li data-aos="fade-left" class="icons">
                         <svg class="icon6">
                             <use href="./img/symbol-defs.svg#icon-client-5"></use>
                         </svg>
@@ -264,7 +265,7 @@
 
 
     </main>
-    <footer class="footer">
+    <footer  data-aos="zoom-in" class="footer">
         <div class="coteiner-foot1">
             <ul class="footer-ol">
                 <li>
@@ -393,15 +394,14 @@
 </ul>
 </div>
 
-<div class="box">
 
-<h1 class="fg">thfht</h1>
-
-
-
-</div>
 
 <script src="./modal.js"></script>
+
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 </html>

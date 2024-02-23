@@ -281,6 +281,8 @@ padding-right: 30px;
     height: 120px;
     margin: auto;
     margin-bottom: 30px;
+  
+   
 
 }
 
@@ -524,6 +526,13 @@ transition: 900ms;
     color: #212121;
 
 }
+
+mein-us1{
+   
+}
+
+
+
 
 .mein-worker {
     font-family: 'Roboto';
