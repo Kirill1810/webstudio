@@ -1,0 +1,89 @@
+.mein-worker {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+
+}
+
+
+.mein-work {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    
+}
+.mein-us2{
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+padding-bottom: 50px;
+padding-top: 94px;
+}
+.svg-team{
+    display: flex;
+    margin-left: 30px;
+    gap: 10px;
+    padding-bottom: 30px;
+}
+
+.svg-all{
+    width: 20px;
+    height: 20px;
+    fill: #757575;
+    padding: 12px;
+    transition: 250ms;
+}
+
+
+.svg-all:hover{
+    fill: #ECECEC;
+}
+
+
+.mein-svg:hover{
+    background: #2196F3;
+    fill: #ECECEC;
+    border-radius: 50px; 
+
+}
+
+.mein-svg{
+    width: 44px;
+height: 44px;
+transition: 250ms;
+
+}
+.mein {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 0;
+}
+.mein-button {
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
