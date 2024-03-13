@@ -1,150 +1,148 @@
-.about-detals {
-    display: flex;
-    margin-top: 30px;
-    margin-bottom: 10px;
-
-
-
-}
-.about-list {
-    display: flex;
-    gap: 30px;
-
-}
 .about{
     padding-top: 93px;
     padding-bottom: 93px;
-
-    
-}
-.about{
-    padding-top: 93px;
-    padding-bottom: 93px;
-
-    
-}
-.about-item1::before{
-    background-position: center;
-    background-image: url(/img/antenna1.png);
-    background-repeat: no-repeat;
-    content: "";
-    display: block;
-    width: 100px;
-    height: 120px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-padding-top: 27px;
-padding-left: 100px;
-padding-right: 100px;
-padding-top: 25px;
-
-
-
-}
-
-    
-    .about-item3::before{
-        background-position: center;
-        background-image: url(/img/diagram1.png);
-        background-repeat: no-repeat;
-        content: "";
-        display: block;
-        width: 100px;
-        height: 120px;
-        padding-left: 100px;
-        padding-right: 100px;
-        border-radius: 4px;
-        background-color: #F5F4FA;
-        padding-top: 25px;
-    
-    
-    }
-
-
-
-
-.about{
     height: 270px;
-    }
+
+    &__detals {
+        display: flex;
+        margin-top: 30px;
+        margin-bottom: 10px;
     
-    .about-item2::before{
-        background-position: center;
-        background-image: url(/img/clock1.png);
-        background-repeat: no-repeat;
-        content: "";
-    display: block;
-    width: 100px;
-    height: 120px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: #F5F4FA;
-    padding-top: 25px;
-    border-radius: 4px;
     
     
     }
+    &__list {
+        display: flex;
+        gap: 30px;
     
-    .about-item3::before{
+    }
+    
+    
+    &__item1::before{
         background-position: center;
-        background-image: url(/img/diagram1.png);
+        background-image: url(/img/antenna1.png);
         background-repeat: no-repeat;
         content: "";
         display: block;
         width: 100px;
         height: 120px;
-        padding-left: 100px;
-        padding-right: 100px;
-        border-radius: 4px;
         background-color: #F5F4FA;
-        padding-top: 25px;
+        border-radius: 4px;
+    padding-top: 27px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    
     
     
     }
-
-
-.about-item4::before{
-    content: " ";
-   background-image: url(/img/clock1.png);
-    background-repeat: no-repeat;
-    display: block;
-    width: 100px;
-    height: 120px;
-    padding-left: 100px;
-    padding-right: 100px;
-    background-color: #F5F4FA;
-    padding-top: 25px;
-    background-position: center;
-    border-radius: 4px;
-
-
+    
+        
+        &__item3::before{
+            background-position: center;
+            background-image: url(/img/diagram1.png);
+            background-repeat: no-repeat;
+            content: "";
+            display: block;
+            width: 100px;
+            height: 120px;
+            padding-left: 100px;
+            padding-right: 100px;
+            border-radius: 4px;
+            background-color: #F5F4FA;
+            padding-top: 25px;
+        
+        
+        }
+    
+    
+    
+    
+    
+        
+        &__item2::before{
+            background-position: center;
+            background-image: url(/img/clock1.png);
+            background-repeat: no-repeat;
+            content: "";
+        display: block;
+        width: 100px;
+        height: 120px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #F5F4FA;
+        padding-top: 25px;
+        border-radius: 4px;
+        
+        
+        }
+        
+        &__item3::before{
+            background-position: center;
+            background-image: url(/img/diagram1.png);
+            background-repeat: no-repeat;
+            content: "";
+            display: block;
+            width: 100px;
+            height: 120px;
+            padding-left: 100px;
+            padding-right: 100px;
+            border-radius: 4px;
+            background-color: #F5F4FA;
+            padding-top: 25px;
+        
+        
+        }
+    
+    
+    &__item4::before{
+        content: " ";
+       background-image: url(/img/clock1.png);
+        background-repeat: no-repeat;
+        display: block;
+        width: 100px;
+        height: 120px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #F5F4FA;
+        padding-top: 25px;
+        background-position: center;
+        border-radius: 4px;
+    
+    
+    }
+    &__detals {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+    
+    
+    }
+    
+    &__ideis {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+    
+        letter-spacing: 0.03em;
+    
+        color: #757575;
+    }
+    
+    
+    
+    
+    
 }
-.about-detals {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
-    color: #212121;
-
-
-}
-
-.about-ideis {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    /* or 171% */
-
-    letter-spacing: 0.03em;
-
-    color: #757575;
-}
-
 
 
 

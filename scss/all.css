@@ -1,26 +1,19 @@
 @charset "UTF-8";
-.about-detals {
+.about {
+  padding-top: 93px;
+  padding-bottom: 93px;
+  height: 270px;
+}
+.about__detals {
   display: flex;
   margin-top: 30px;
   margin-bottom: 10px;
 }
-
-.about-list {
+.about__list {
   display: flex;
   gap: 30px;
 }
-
-.about {
-  padding-top: 93px;
-  padding-bottom: 93px;
-}
-
-.about {
-  padding-top: 93px;
-  padding-bottom: 93px;
-}
-
-.about-item1::before {
+.about__item1::before {
   background-position: center;
   background-image: url(/img/antenna1.png);
   background-repeat: no-repeat;
@@ -35,8 +28,7 @@
   padding-right: 100px;
   padding-top: 25px;
 }
-
-.about-item3::before {
+.about__item3::before {
   background-position: center;
   background-image: url(/img/diagram1.png);
   background-repeat: no-repeat;
@@ -50,12 +42,7 @@
   background-color: #F5F4FA;
   padding-top: 25px;
 }
-
-.about {
-  height: 270px;
-}
-
-.about-item2::before {
+.about__item2::before {
   background-position: center;
   background-image: url(/img/clock1.png);
   background-repeat: no-repeat;
@@ -69,8 +56,7 @@
   padding-top: 25px;
   border-radius: 4px;
 }
-
-.about-item3::before {
+.about__item3::before {
   background-position: center;
   background-image: url(/img/diagram1.png);
   background-repeat: no-repeat;
@@ -84,8 +70,7 @@
   background-color: #F5F4FA;
   padding-top: 25px;
 }
-
-.about-item4::before {
+.about__item4::before {
   content: " ";
   background-image: url(/img/clock1.png);
   background-repeat: no-repeat;
@@ -99,8 +84,7 @@
   background-position: center;
   border-radius: 4px;
 }
-
-.about-detals {
+.about__detals {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -110,8 +94,7 @@
   text-transform: uppercase;
   color: #212121;
 }
-
-.about-ideis {
+.about__ideis {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -294,6 +277,7 @@ time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  list-style: none;
 }
 
 html {
@@ -313,8 +297,7 @@ html {
   display: flex;
   justify-content: space-between;
 }
-
-.header-logo1 {
+.header__logo1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -326,19 +309,16 @@ html {
   padding-bottom: 25px;
   padding-top: 24px;
 }
-
-.header-conteiner {
+.header__conteiner {
   display: flex;
 }
-
-.header-ul {
+.header__ul {
   display: flex;
   justify-content: flex-start;
   gap: 100px;
   margin-top: 30px;
 }
-
-.header-kontact {
+.header__kontact {
   display: flex;
   justify-content: flex-end;
   gap: 100px;
@@ -346,8 +326,7 @@ html {
   align-items: center;
   margin-left: 100px;
 }
-
-.header-portfolio {
+.header__portfolio {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -357,8 +336,7 @@ html {
   transition: 250ms;
   color: #212121;
 }
-
-.header-logo4 {
+.header__logo4 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -368,15 +346,7 @@ html {
   letter-spacing: 0.03em;
   color: #2196F3;
 }
-
-.sssc {
-  border-radius: 0px 0px 4px 4px;
-  background: #FFF;
-  /* material shadow v1 */
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
-.header-logo3 {
+.header__logo3 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -386,8 +356,7 @@ html {
   letter-spacing: 0.03em;
   color: #000000;
 }
-
-.header-logo2 {
+.header__logo2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -397,12 +366,10 @@ html {
   letter-spacing: 0.03em;
   color: #000000;
 }
-
-.header-studio:hover {
+.header__studio:hover {
   color: #2196F3;
 }
-
-.header-studio {
+.header__studio {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -414,12 +381,10 @@ html {
   padding-left: 93px;
   padding-right: 30px;
 }
-
-.header-contakt:hover {
+.header__contakt:hover {
   color: #2196F3;
 }
-
-.header-contakt {
+.header__contakt {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -429,12 +394,10 @@ html {
   transition: 250ms;
   color: #212121;
 }
-
-.header-numer:hover {
+.header__numer:hover {
   color: #2196F3;
 }
-
-.header-numer {
+.header__numer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -444,12 +407,10 @@ html {
   transition: 250ms;
   color: #757575;
 }
-
-.header-post:hover {
+.header__post:hover {
   color: #2196F3;
 }
-
-.header-post {
+.header__post {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -459,12 +420,10 @@ html {
   transition: 250ms;
   color: #757575;
 }
-
-.header-conteiner {
+.header__conteiner {
   outline: none;
 }
-
-.header-logo2 {
+.header__logo2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -474,8 +433,7 @@ html {
   letter-spacing: 0.03em;
   color: #2196F3;
 }
-
-.header-logo2 {
+.header__logo2 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -485,13 +443,12 @@ html {
   letter-spacing: 0.03em;
   color: #000000;
 }
-
-.header-nav {
+.header__nav {
   outline: none;
   display: flex;
+  margin-top: px;
 }
-
-.stu-svg {
+.header__stu {
   position: relative;
   width: 60px;
   height: 4px;
@@ -501,35 +458,27 @@ html {
   left: 85px;
   top: 28px;
 }
-
-.head-li:hover {
+.header__li:hover {
   color: #2196F3;
 }
-.head-li:hover .svg-head {
+.header__li:hover__svg {
   fill: #2196F3;
 }
-.head-li:hover .svg-head1 {
+.header__li:hover__svg1 {
   fill: #2196F3;
 }
-
-.svg-head {
+.header__svg {
   width: 16px;
   height: 12px;
   fill: #757575;
   margin-top: 2px;
 }
-
-.svg-head1 {
+.header__svg1 {
   width: 10px;
   height: 16px;
   fill: #757575;
 }
-
-.svg-head:hover {
-  fill: #2196F3;
-}
-
-.svg-head1:hover {
+.header__svg1:hover {
   fill: #2196F3;
 }
 
@@ -594,13 +543,6 @@ html {
   color: #212121;
 }
 
-.sssc {
-  border-radius: 0px 0px 4px 4px;
-  background: #FFF;
-  /* material shadow v1 */
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
 .mein-work {
   font-family: "Roboto";
   font-style: normal;
@@ -645,6 +587,13 @@ html {
 
 .svg-all:hover {
   fill: #ECECEC;
+}
+
+.mein-card {
+  border-radius: 0px 0px 4px 4px;
+  background: #FFF;
+  /* material shadow v1 */
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .mein-svg:hover {
