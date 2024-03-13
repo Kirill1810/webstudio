@@ -1,3 +1,10 @@
+
+.footer{
+    background-color: #2F303A;
+}
+
+
+
 .footer-addres {
     font-family: 'Roboto';
     font-style: normal;
@@ -84,7 +91,7 @@ height: 44px;
 footer{
     display: flex;
 }
-.join{
+.footer-join{
     color: #FFF;
     font-family: Roboto;
     font-size: 14px;
@@ -105,11 +112,6 @@ padding: 12px;
   
 }
 
-
-
-
-
-
 .coteiner-foot1{
     width: 1170px;
     padding-left: 15px;
@@ -120,12 +122,26 @@ padding: 12px;
     display: flex;
 }
 
-.jjoin{
+.footer-blok{
     margin-top: 75px;
     margin-left: 156px;
 
 }
 
+.footer-logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+
+padding-top: 60px;
+}
 
 .footer-svg1:hover{
    fill: #FFF;

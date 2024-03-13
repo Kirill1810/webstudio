@@ -1,0 +1,183 @@
+.header-portfolioo{
+    border-bottom: 1px solid  #ECECEC;
+    padding-bottom: 0px; 
+    padding-top: 24px;
+}
+
+
+
+
+
+.header2{
+display: flex;
+padding-bottom: 20px;
+}
+
+.numer2{
+display: flex;
+margin-left: 150px;
+gap: 30px;
+}
+
+
+
+
+
+.header-nav{
+    outline: none;
+    display: flex;
+}
+
+
+.port-svg{
+    width: 78px;
+height: 4px;
+flex-shrink: 0;
+margin-top: px;
+display: block;
+opacity: 1;
+position: relative;
+top: 22px;
+transition: 250ms;
+
+}
+
+
+.port-svg:hover{
+    opacity: 1;
+}
+
+.header-ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+
+    justify-content: space-aroun;
+
+}
+
+.header-logo4 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+
+}
+
+.header-logo3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+}
+
+
+
+
+
+
+
+
+.header2 {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-left: 93px;
+}
+
+.header-studio2:hover {
+    color: #2196F3;
+}
+
+.header-studio2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: 250ms;
+    color: #212121;
+}
+
+.header-portfolio2:hover {
+    color: #2196F3;
+
+}
+
+
+.header-portfolio2 {
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: 250ms;
+    color: #2196F3;
+}
+
+.header-contakt2:hover {
+    color: #2196F3;
+}
+
+.header-contakt2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: 250ms;
+    color: #212121;
+}
+
+.header-numer2:hover {
+    color: #5154e6;
+}
+
+.header-numer2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: 250ms;
+    color: #757575;
+}
+
+.header-post2:hover {
+    color: #5154e6;
+}
+
+.header-post2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    transition: 250ms;
+    color: #757575;
+}
+
+
+
+
+
