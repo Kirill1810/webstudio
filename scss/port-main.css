@@ -60,29 +60,31 @@ html {
   margin-right: auto;
 }
 
-.header-portfolioo {
+.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header {
   border-bottom: 1px solid #ECECEC;
   padding-bottom: 0px;
   padding-top: 24px;
+  display: flex;
 }
-
-.header2 {
+.header__l {
   display: flex;
   padding-bottom: 20px;
 }
-
-.numer2 {
+.header__ll {
   display: flex;
   margin-left: 150px;
   gap: 30px;
 }
-
-.header-nav {
+.header__nav {
   outline: none;
   display: flex;
 }
-
-.port-svg {
+.header__svg {
   width: 78px;
   height: 4px;
   flex-shrink: 0;
@@ -93,19 +95,16 @@ html {
   top: 22px;
   transition: 250ms;
 }
-
-.port-svg:hover {
+.header__svg:hover {
   opacity: 1;
 }
-
-.header-ul {
+.header__ul {
   display: flex;
   justify-content: flex-start;
   gap: 100px;
   justify-content: space-aroun;
 }
-
-.header-logo4 {
+.header__logo4 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -115,8 +114,7 @@ html {
   letter-spacing: 0.03em;
   color: #2196F3;
 }
-
-.header-logo3 {
+.header__logo3 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -126,19 +124,16 @@ html {
   letter-spacing: 0.03em;
   color: #000000;
 }
-
-.header2 {
+.header__l {
   display: flex;
   gap: 32px;
   align-items: center;
   margin-left: 93px;
 }
-
-.header-studio2:hover {
+.header__studio2:hover {
   color: #2196F3;
 }
-
-.header-studio2 {
+.header__studio2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -148,12 +143,10 @@ html {
   transition: 250ms;
   color: #212121;
 }
-
-.header-portfolio2:hover {
+.header__portfolio2:hover {
   color: #2196F3;
 }
-
-.header-portfolio2 {
+.header__portfolio2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -163,12 +156,10 @@ html {
   transition: 250ms;
   color: #2196F3;
 }
-
-.header-contakt2:hover {
+.header__contakt2:hover {
   color: #2196F3;
 }
-
-.header-contakt2 {
+.header__contakt2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -178,12 +169,10 @@ html {
   transition: 250ms;
   color: #212121;
 }
-
-.header-numer2:hover {
+.header__numer2:hover {
   color: #5154e6;
 }
-
-.header-numer2 {
+.header__numer2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -193,12 +182,10 @@ html {
   transition: 250ms;
   color: #757575;
 }
-
-.header-post2:hover {
+.header__post2:hover {
   color: #5154e6;
 }
-
-.header-post2 {
+.header__post2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -212,13 +199,11 @@ html {
 .mein2 {
   margin-top: 94px;
 }
-
-.buttons2 {
+.mein2__buttons2 {
   display: flex;
   justify-content: space-around;
 }
-
-.button {
+.mein2__button {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -231,36 +216,31 @@ html {
   color: black;
   margin-left: 20px;
 }
-
-button:hover {
+.mein2__button:hover {
   background-color: #2196F3;
   color: rgb(240, 242, 243);
 }
 
-.our-text {
+.text4 {
   padding-bottom: 94px;
   padding-top: 50px;
 }
-
-.ul-mein {
+.text4__mein {
   display: flex;
   gap: 27px;
   flex-wrap: wrap;
 }
-
-.text-li {
+.text4-li {
   background: #FFF;
   border: 1px solid #EEE;
   height: 454px;
   width: 370px;
 }
-
-.text-li:hover {
+.text4__li:hover {
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
-.resurs-li {
+.text4-li {
   width: 370px;
   height: 294px;
   flex-shrink: 0;
@@ -269,12 +249,10 @@ button:hover {
   height: 310px;
   opacity: 0;
 }
-
-.resurs-li:hover {
+.text4-li:hover {
   opacity: 1;
 }
-
-.photo:hover .resurs:hover {
+.text4__photo:hover .text4__resurs:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
   transition: 1s linear;
@@ -282,14 +260,12 @@ button:hover {
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-
-.resurs:hover {
+.text4__resurs:hover {
   opacity: 1;
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-
-.resurs {
+.text4__resurs {
   bottom: 295px;
   padding-right: 24px;
   padding-left: 24px;
@@ -314,29 +290,25 @@ button:hover {
   transform: translateY(100%);
   transition: 1s linear;
 }
-
-.text-li:hover {
+.text4__li:hover {
   opacity: 1;
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-.text-li:hover .resurs {
+.text4__li:hover__resurs {
   opacity: 1;
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-
-.text-li {
+.text4-li {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 1s linear;
 }
-
-.photo {
+.text4__photo {
   width: 370px;
   height: 294px;
 }
-
-.text {
+.text4__text {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -350,8 +322,7 @@ button:hover {
   position: relative;
   bottom: 280px;
 }
-
-.text2 {
+.text4__text2 {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;

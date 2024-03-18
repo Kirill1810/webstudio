@@ -1,32 +1,36 @@
 .mein2 {
     margin-top: 94px;
-}
 
-.buttons2 {
-    display: flex;
-    justify-content: space-around;
+
+
+
+    &__buttons2 {
+        display: flex;
+        justify-content: space-around;
+        
+        
     
+    }
     
-
-}
-
-.button {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 26px;
-    /* identical to box height, or 162% */
-    transition: 250ms;
-    text-align: center;
-    letter-spacing: 0.03em;
-
-    color: black;
-    margin-left: 20px;
+    &__button {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        /* identical to box height, or 162% */
+        transition: 250ms;
+        text-align: center;
+        letter-spacing: 0.03em;
     
+        color: black;
+        margin-left: 20px;
+        
+    }
+    
+    &__button:hover {
+        background-color: #2196F3;
+        color: rgb(240, 242, 243);
+    }
 }
 
-button:hover {
-    background-color: #2196F3;
-    color: rgb(240, 242, 243);
-}
