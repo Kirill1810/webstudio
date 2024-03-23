@@ -230,7 +230,7 @@ html {
   gap: 27px;
   flex-wrap: wrap;
 }
-.text4-li {
+.text4__li {
   background: #FFF;
   border: 1px solid #EEE;
   height: 454px;
@@ -240,17 +240,20 @@ html {
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.text4-li {
+.text4__li {
   width: 370px;
   height: 294px;
   flex-shrink: 0;
   background: rgba(33, 150, 243, 0.9);
   margin-top: 40px;
   height: 310px;
-  opacity: 0;
-}
-.text4-li:hover {
   opacity: 1;
+}
+.text4__li:hover {
+  opacity: 1;
+}
+.text4__photo0:hover .text4_resurs {
+  transform: translate(0);
 }
 .text4__photo:hover .text4__resurs:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -300,7 +303,7 @@ html {
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-.text4-li {
+.text4__li {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 1s linear;
 }
@@ -340,8 +343,7 @@ html {
 .footer2 {
   background-color: #2F303A;
 }
-
-.footer-logo1 {
+.footer2__logoo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -353,8 +355,7 @@ html {
   padding-bottom: 25px;
   padding-top: 24px;
 }
-
-.footer-logo {
+.footer2__logo {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -364,8 +365,7 @@ html {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 }
-
-.footer-addres2 {
+.footer2__addres {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -376,8 +376,7 @@ html {
   transition: 250ms;
   color: #FFFFFF;
 }
-
-.footer-numer2 {
+.footer2__numer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
