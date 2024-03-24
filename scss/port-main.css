@@ -154,6 +154,7 @@ html {
   line-height: 16px;
   letter-spacing: 0.02em;
   transition: 250ms;
+  color: #212121;
   color: #2196F3;
 }
 .header__contakt2:hover {
@@ -235,25 +236,15 @@ html {
   border: 1px solid #EEE;
   height: 454px;
   width: 370px;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 .text4__li:hover {
   background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.text4__li {
-  width: 370px;
-  height: 294px;
-  flex-shrink: 0;
-  background: rgba(33, 150, 243, 0.9);
-  margin-top: 40px;
-  height: 310px;
+.text4-li:hover {
   opacity: 1;
-}
-.text4__li:hover {
-  opacity: 1;
-}
-.text4__photo0:hover .text4_resurs {
-  transform: translate(0);
 }
 .text4__photo:hover .text4__resurs:hover {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -298,12 +289,12 @@ html {
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-.text4__li:hover__resurs {
+.text4__li:hover .text4__resurs {
   opacity: 1;
   /* transform: translateY(-50%); */
   transform: translateY(0);
 }
-.text4__li {
+.text4-li {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 1s linear;
 }
@@ -329,11 +320,10 @@ html {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+  font-size: 14px;
+  line-height: 24px;
   margin-top: 4px;
   margin-left: 24px;
   position: relative;
@@ -377,12 +367,13 @@ html {
   color: #FFFFFF;
 }
 .footer2__numer {
+  font-size: 14px;
+  line-height: 24px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
+  letter-spacing: 0.03em;
+  color: #757575;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 5px;

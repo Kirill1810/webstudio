@@ -43,18 +43,13 @@
     
     }
     &__portfolio{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-        transition: 250ms;
-    
-        color: #212121;
+        @include head-text;
     }
     
+&__portfolio:hover{
+    color: #2196F3;
+}
+
     &__logo4 {
         font-family: 'Raleway';
         font-style: normal;
@@ -102,14 +97,7 @@
     }
     
     &__studio {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        
-        transition: 250ms;
+        @include head-text;
     
         color:#2196F3 ;
     padding-left: 93px;
@@ -124,16 +112,7 @@
     }
     
     &__contakt {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-    
-        transition: 250ms;
-    
-        color: #212121;
+      @include head-text;
     }
     
     
@@ -142,16 +121,15 @@
     }
     
     &__numer {
-        font-family: 'Roboto';
-        font-style: normal;
+        @include text;
         font-weight: 500;
-        font-size: 14px;
+      
         line-height: 16px;
         letter-spacing: 0.02em;
     
         transition: 250ms;
     
-        color: #757575;
+       
     }
     
     &__post:hover{
@@ -160,8 +138,7 @@
     }
     
     &__post {
-        font-family: 'Roboto';
-        font-style: normal;
+        @include text;
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
@@ -169,7 +146,7 @@
     
         transition: 250ms;
     
-        color: #757575;
+       
     
     }
     

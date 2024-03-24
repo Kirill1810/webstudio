@@ -24,29 +24,20 @@
     
     
     &__adres {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+      
+        @include text;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
-    
-        color: rgba(255, 255, 255, 0.6);
         padding: 9px;
-    
+        color: rgba(255, 255, 255, 0.6);
     }
     
     
     &__numer {
-        font-family: 'Roboto';
-        font-style: normal;
+        @include text;
         font-weight: 400;
-        font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
         letter-spacing: 0.03em;
     
         color: rgba(255, 255, 255, 0.6);

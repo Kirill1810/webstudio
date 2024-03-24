@@ -44,15 +44,10 @@
     }
     
     &__numer{
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
+        @include text;
         letter-spacing: 0.03em;
-    
         color: rgba(255, 255, 255, 0.6);
         margin-top: 5px;
     

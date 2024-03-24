@@ -126,16 +126,9 @@
     }
     
     &__ideis {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
+        @include text;
         font-size: 14px;
         line-height: 24px;
-        /* or 171% */
-    
-        letter-spacing: 0.03em;
-    
-        color: #757575;
     }
     
     

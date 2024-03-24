@@ -1,0 +1,24 @@
+@mixin text{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+
+}
+
+@mixin head-text{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    transition: 250ms;
+
+    color: #212121;
+}

@@ -3,7 +3,6 @@
     padding-top: 50px;
 
 
-
     &__mein {
         display: flex;
         gap: 27px;
@@ -16,45 +15,23 @@
         border: 1px solid #EEE;
         height: 454px;
         width: 370px;
+        margin-bottom: 0;
+        padding-bottom: 0;
         
         
         }
+
         &__li:hover{
             background: #FFF;
             box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);  
         }
     
-        &__li{
-            width: 370px;
-        height: 294px;
-        flex-shrink: 0;
-        background: rgba(33, 150, 243, 0.90);
-        margin-top: 40px;
-        height: 310px;
-        opacity:1 ;
-        
-        }
+       
         
         
-        &__li:hover{
+        &-li:hover{
             opacity: 1;
         }
-
-
-&__photo0:hover  &_resurs{
-transform: translate(0);
-
-
-
-
-}
-
-
- 
-
-
-
-
         
         &__photo:hover &__resurs:hover{
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -105,14 +82,14 @@ transform: translate(0);
             opacity: 1;
             /* transform: translateY(-50%); */
             transform: translateY(0); 
-            &__resurs{
+            .text4__resurs{
                 opacity: 1;
             /* transform: translateY(-50%); */
             transform: translateY(0); 
             }
         }
         
-        &__li{
+        &-li{
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
           transition:  1s linear; 
           
@@ -141,16 +118,9 @@ transform: translate(0);
         }
     
         &__text2 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 400;
+            @include text;
             font-size: 14px;
             line-height: 24px;
-            /* or 171% */
-        
-            letter-spacing: 0.03em;
-        
-            color: #757575;
             margin-top: 4px;
             margin-left: 24px;
             position: relative;
@@ -165,4 +135,3 @@ transform: translate(0);
 
 
 }
-

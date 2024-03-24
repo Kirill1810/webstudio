@@ -98,11 +98,10 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .clients {
@@ -325,6 +324,9 @@ html {
   transition: 250ms;
   color: #212121;
 }
+.header__portfolio:hover {
+  color: #2196F3;
+}
 .header__logo4 {
   font-family: "Raleway";
   font-style: normal;
@@ -366,6 +368,7 @@ html {
   line-height: 16px;
   letter-spacing: 0.02em;
   transition: 250ms;
+  color: #212121;
   color: #2196F3;
   padding-left: 93px;
   padding-right: 30px;
@@ -389,12 +392,13 @@ html {
 .header__numer {
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #757575;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   transition: 250ms;
-  color: #757575;
 }
 .header__post:hover {
   color: #2196F3;
@@ -402,12 +406,14 @@ html {
 .header__post {
   font-family: "Roboto";
   font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #757575;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   transition: 250ms;
-  color: #757575;
 }
 .header__conteiner {
   outline: none;
@@ -533,12 +539,13 @@ html {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-  /* identical to box height */
-  text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
   padding-bottom: 30px;
   padding-top: 10px;
 }
@@ -959,20 +966,22 @@ html {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
+  letter-spacing: 0.03em;
+  color: #757575;
   font-size: 14px;
   line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
   padding: 9px;
+  color: rgba(255, 255, 255, 0.6);
 }
 .footer__numer {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  font-weight: 400;
   line-height: 24px;
-  /* or 171% */
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   padding-bottom: 60px;

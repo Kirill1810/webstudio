@@ -110,14 +110,7 @@
         }
         
         &__studio2 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            transition: 250ms;
-            color: #212121;
+            @include head-text;
         }
         
         &__portfolio2:hover {
@@ -127,15 +120,7 @@
         
         
         &__portfolio2 {
-        
-        
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            transition: 250ms;
+            @include head-text;
             color: #2196F3;
         }
         
@@ -144,14 +129,7 @@
         }
         
         &__contakt2 {
-            font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            transition: 250ms;
-            color: #212121;
+            @include head-text;
         }
         
         &__numer2:hover {

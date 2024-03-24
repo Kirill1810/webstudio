@@ -19,17 +19,15 @@
     
     
     &__work {
-        font-family: 'Roboto';
-        font-style: normal;
+        @include text;
         font-weight: 400;
         font-size: 16px;
         line-height: 19px;
-        /* identical to box height */
-    
+        
         text-align: center;
         letter-spacing: 0.03em;
     
-        color: #757575;
+       
         padding-bottom: 30px;
         padding-top: 10px;
         
