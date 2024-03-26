@@ -25,7 +25,7 @@
     
     &__adres {
       
-        @include text;
+        @include text();
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.03em;
@@ -35,7 +35,7 @@
     
     
     &__numer {
-        @include text;
+        @include text();
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.03em;

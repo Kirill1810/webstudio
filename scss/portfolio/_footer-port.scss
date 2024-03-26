@@ -46,7 +46,7 @@
     &__numer{
         font-size: 14px;
         line-height: 24px;
-        @include text;
+        @include text();
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
         margin-top: 5px;

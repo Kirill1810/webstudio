@@ -13,10 +13,11 @@
     &__li{ 
         background: #FFF;
         border: 1px solid #EEE;
-        height: 454px;
+        height: 404px;
         width: 370px;
         margin-bottom: 0;
         padding-bottom: 0;
+        border: 1px solid #EEE;
         
         
         }
@@ -118,7 +119,7 @@
         }
     
         &__text2 {
-            @include text;
+            @include text();
             font-size: 14px;
             line-height: 24px;
             margin-top: 4px;

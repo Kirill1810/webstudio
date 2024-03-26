@@ -126,7 +126,7 @@
     }
     
     &__ideis {
-        @include text;
+        @include text();
         font-size: 14px;
         line-height: 24px;
     }
