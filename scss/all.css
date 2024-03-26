@@ -15,7 +15,7 @@
 }
 .about__item1::before {
   background-position: center;
-  background-image: url(/img/antenna1.png);
+  background-image: url(./base/antenna1.png);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -30,7 +30,7 @@
 }
 .about__item3::before {
   background-position: center;
-  background-image: url(/img/diagram1.png);
+  background-image: url(./base/diagram1.png);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -44,7 +44,7 @@
 }
 .about__item2::before {
   background-position: center;
-  background-image: url(/img/clock1.png);
+  background-image: url(./base/clock1.png);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -58,7 +58,7 @@
 }
 .about__item3::before {
   background-position: center;
-  background-image: url(/img/diagram1.png);
+  background-image: url(./base/astronaut1.png);
   background-repeat: no-repeat;
   content: "";
   display: block;
@@ -72,7 +72,7 @@
 }
 .about__item4::before {
   content: " ";
-  background-image: url(/img/clock1.png);
+  background-image: url(./base/diagram1.png);
   background-repeat: no-repeat;
   display: block;
   width: 100px;
@@ -483,7 +483,7 @@ html {
   padding-top: 200px;
   padding-bottom: 200px;
   background: rgba(47, 48, 58, 0.4), url(/img/imggg.png);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(/img/imggg.png);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(./base/imggg.png);
 }
 .hero__bisnes {
   font-family: "Roboto";
