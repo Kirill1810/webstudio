@@ -4,6 +4,12 @@
     display: flex;
     justify-content: space-between;
 
+ 
+   
+
+
+
+
     &__logo1 {
         font-family: 'Raleway';
         font-style: normal;
@@ -30,6 +36,12 @@
         justify-content: flex-start;
         gap: 100px;
        margin-top: 30px;
+       width: 200px;
+
+      
+
+
+
     
     }
     
@@ -39,11 +51,17 @@
         gap: 100px;
         margin-left: auto;
         align-items: center;
-    margin-left:100px ;
+    margin-left:400px ;
     
+
+
     }
+
     &__portfolio{
         @include head-text;
+
+       
+        
     }
     
 &__portfolio:hover{
@@ -94,10 +112,13 @@
     
     &__studio:hover {
         color: #2196F3;
+
     }
     
     &__studio {
         @include head-text;
+
+       
     
         color:#2196F3 ;
     padding-left: 93px;
@@ -113,6 +134,8 @@
     
     &__contakt {
       @include head-text;
+
+     
     }
     
     
@@ -128,6 +151,7 @@
         letter-spacing: 0.02em;
     
         transition: 250ms;
+      
     
        
     }
@@ -145,6 +169,7 @@
         letter-spacing: 0.02em;
     
         transition: 250ms;
+       
     
        
     
@@ -194,6 +219,7 @@
         opacity: 1;
        left: 85px;
         top: 28px;
+       
     
     }
     
@@ -206,6 +232,10 @@
         &__svg1{
             fill: #2196F3;
         }
+    }
+
+    &__li{
+        display: flex;
     }
     
     &__svg{
@@ -228,6 +258,37 @@
     
    
 }
+
+@media screen and (max-width: 768px) {
+
+    .header__ul{
+        display: flex;
+        justify-content: center;
+        gap: 51px;
+        margin-left: 88px;
+
+    }
+
+.header__kontact{
+    display: flex;
+    flex-wrap: wrap;
+    width: 138px;
+    height: 36px;
+}
+
+
+
+
+    .header__studio{
+        padding-right: 0;
+    }
+
+
+  
+  
+  
+  
+  }
 
 
 

@@ -1,5 +1,14 @@
 .mein1{
 
+
+
+
+
+
+
+
+
+
     &__w {
         font-family: 'Roboto';
         font-style: normal;
@@ -114,6 +123,19 @@
     }
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .mein1{
+        display: none;
+    }
+
+
+  
+  
+  
+  
+  }
 
 
 

@@ -137,5 +137,38 @@
     
 }
 
+@media screen and (max-width: 768px) {
+
+   .about__list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 738px;
+    height: 464px;
+   }
+   .about{
+    width: 738px;
+    height: 464px;
+   }
+   .about__item1{
+
+width: 354px;
+height:224px ;
+
+   }
+   .about__item2{
+    width: 354px;
+height:224px ;
+   }
+   .about__item3{
+    width: 354px;
+height:224px ;
+   }
+   .about__item4{
+    width: 354px;
+height:224px ;
+   }
 
 
+
+
+   }
