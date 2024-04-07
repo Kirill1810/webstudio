@@ -270,25 +270,36 @@
     }
 
 .header__kontact{
-    display: flex;
-    flex-wrap: wrap;
     width: 138px;
-    height: 36px;
+    height: 38px; 
+    
 }
-
-
-
 
     .header__studio{
         padding-right: 0;
     }
 
-
-  
-  
-  
-  
   }
+
+  @media screen and ( min-width:480px) {
+    .header__ul{
+        display: none;
+        
+
+    }
+
+.header__kontact{
+    display: none;
+}
+
+    .header__studio{
+        display: none;
+    }
+   
+
+ }
+
+
 
 
 

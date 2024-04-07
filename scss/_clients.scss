@@ -165,3 +165,48 @@
   
   
   }
+
+  @media screen and ( min-width:480px) {
+    
+    .clients{
+        width: 600px;
+        
+       
+       margin-bottom: 60px;
+       padding-bottom: 60px;
+       }
+    
+       .clients__ul{
+        width: 738px;
+        height: 214px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 150px;
+        
+     
+       }
+    
+       .clients__text{
+        margin-left: 200px;
+       margin-top: -10px;
+       margin-bottom: 30px;
+       }
+    
+   
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

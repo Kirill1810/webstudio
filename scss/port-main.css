@@ -70,6 +70,11 @@ html {
     width: 768px;
   }
 }
+@media screen and (min-width: 480px) {
+  .coteiner {
+    width: 480px;
+  }
+}
 .header {
   border-bottom: 1px solid #ECECEC;
   padding-bottom: 0px;
