@@ -38,11 +38,12 @@
        margin-top: 30px;
        width: 200px;
 
+
       
 
 
 
-    
+
     }
     
     &__kontact{
@@ -119,6 +120,8 @@
         @include head-text;
 
        
+
+       
     
         color:#2196F3 ;
     padding-left: 93px;
@@ -166,7 +169,7 @@
         font-weight: 500;
         font-size: 14px;
         line-height: 16px;
-        letter-spacing: 0.02em;
+        letter-spacing: 0.01px;
     
         transition: 250ms;
        
@@ -259,45 +262,117 @@
    
 }
 
+
+
+
+  
+
+    
+ 
+   
+    
+ 
+ 
+ 
+    
+     
+ 
+ 
+        
+
+
+  
+
+
+    
+
+
 @media screen and (max-width: 768px) {
 
-    .header__ul{
+   .header__ul{
         display: flex;
         justify-content: center;
-        gap: 51px;
-        margin-left: 88px;
+        gap: 41px;
+        margin-left: 218px;
+   }
 
-    }
+   .header__logo1{
+   
+    font-size: 34px;
+    width: 10px;
+   
+   }
+   .header__logo2{
+   
+    font-size: 34px;
+   
+   }
+
+   .header__numer{
+    font-size: 12px;
+   }
+
+   .header__svg1{
+    position: relative;
+    right: 20px;
+   }
+
+   .header__post{
+    position: relative;
+    font-size: 12px;
+    right: 20px;
+   }
+
+
+  
+   
+
 
 .header__kontact{
-    width: 138px;
-    height: 38px; 
+margin-left: 0px;
+display: flex;
+flex-wrap: wrap;
+gap: 0px;
+width: 139px;
+height: 34px;
+top: 20px;
+
+
+position: relative;
+left: 150px;
+
+
+   
     
 }
 
     .header__studio{
         padding-right: 0;
+       
     }
 
+    .header__nav{
+   display: flex;
+       
+    }
+
+   
   }
 
-  @media screen and ( min-width:480px) {
-    .header__ul{
-        display: none;
-        
 
+
+  
+
+  @media screen and ( max-width:480px) {
+  
+
+    .header__nav{
+       display: none;
+       
     }
 
-.header__kontact{
-    display: none;
+
 }
-
-    .header__studio{
-        display: none;
-    }
-   
-
- }
 
 
 

@@ -1,6 +1,7 @@
 .clients{
     margin-bottom: 91px;
     padding-top: 140px;
+  margin-right: 00px;
 
 
 
@@ -14,12 +15,15 @@
     line-height: normal;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
+  
+   
     }
     
     
     &__ul{
         display: flex;
         gap: 30px;
+        margin-left: 00px;
     }
     &__icon1{
         width: 106px;
@@ -133,6 +137,44 @@
 
 }
 
+@media screen and (max-width: 1200px) {
+
+    .clients{
+     width: 738px;
+     height: 214px;
+     display: flex;
+     flex-wrap: wrap;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    }
+ 
+    .clients__ul{
+    
+        display: flex;
+        gap: 30px;
+        margin-left: 500px;
+  
+    }
+ 
+    .clients__text{
+     margin-left: 50px;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    }
+ 
+   
+   
+   
+   
+   }
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -151,11 +193,12 @@
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
+    
  
    }
 
    .clients__text{
-    margin-left: 250px;
+    margin-left: 50px;
    margin-top: -10px;
    margin-bottom: 30px;
    }
@@ -166,7 +209,7 @@
   
   }
 
-  @media screen and ( min-width:480px) {
+  @media screen and ( max-width:480px) {
     
     .clients{
         width: 600px;

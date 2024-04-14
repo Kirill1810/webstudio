@@ -65,19 +65,32 @@ html{
 
 @media screen and ( min-width:768px) {
     .coteiner{
-        width: 768px;
+        max-width: 738px;
 
     }
    
 
  }
 
- @media screen and ( min-width:480px) {
+ @media screen and (min-width:1200px) {
+
     .coteiner{
-        width: 480px;
-
+        max-width: 1170px;
     }
+
+
+
+
+
+}
+
+
+//  @media screen and ( min-width:480px) 
+//     .coteiner{
+//         max-width: 480px;
+
+
    
 
- }
+
 

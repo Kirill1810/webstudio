@@ -170,7 +170,7 @@ height:224px ;
 
    }
 
-   @media screen and ( min-width:480px) {
+   @media screen and ( max-width:480px) {
    
     .about__list{
         display: flex;
