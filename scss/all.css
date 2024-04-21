@@ -108,16 +108,16 @@
   .about__list {
     display: flex;
     flex-wrap: wrap;
-    width: 738px;
-    height: 464px;
   }
   .about {
-    width: 738px;
-    height: 464px;
+    padding-bottom: 300px;
+    margin-left: 30px;
+    margin-right: 15px;
   }
   .about__item1 {
     width: 354px;
     height: 224px;
+    flex-shrink: 0;
   }
   .about__item2 {
     width: 354px;
@@ -128,7 +128,7 @@
     height: 224px;
   }
   .about__item4 {
-    width: 354px;
+    width: 340px;
     height: 224px;
   }
 }
@@ -136,31 +136,28 @@
   .about__list {
     display: flex;
     flex-wrap: wrap;
-    width: 480px;
+    width: 700px;
     height: 464px;
   }
   .about {
-    width: 480px;
+    width: 700px;
     height: 464px;
-    margin-right: 100px;
+    padding-bottom: 460px;
+    margin-left: 160px;
   }
   .about__item1 {
-    margin-left: 100px;
     width: 450px;
     height: 224px;
   }
   .about__item2 {
-    margin-left: 100px;
     width: 450px;
     height: 224px;
   }
   .about__item3 {
-    margin-left: 100px;
     width: 450px;
     height: 224px;
   }
   .about__item4 {
-    margin-left: 100px;
     width: 450px;
     height: 224px;
   }
@@ -316,7 +313,6 @@
 }
 @media screen and (max-width: 768px) {
   .clients {
-    width: 738px;
     height: 214px;
     display: flex;
     flex-wrap: wrap;
@@ -324,8 +320,6 @@
     padding-bottom: 60px;
   }
   .clients__ul {
-    width: 738px;
-    height: 214px;
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
@@ -338,16 +332,14 @@
 }
 @media screen and (max-width: 480px) {
   .clients {
-    width: 600px;
+    width: px;
     margin-bottom: 60px;
     padding-bottom: 60px;
   }
   .clients__ul {
-    width: 738px;
-    height: 214px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 150px;
+    margin-left: 250px;
   }
   .clients__text {
     margin-left: 200px;
@@ -421,7 +413,7 @@ html {
   pointer-events: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .coteiner {
     max-width: 738px;
   }
@@ -764,6 +756,17 @@ html {
     right: 100px;
   }
 }
+@media screen and (max-width: 480px) {
+  .hero {
+    width: 900px;
+  }
+  .hero__bisnes {
+    margin-left: 30px;
+  }
+  .hero__button {
+    margin-left: 250px;
+  }
+}
 .mein__worker {
   font-family: "Roboto";
   font-style: normal;
@@ -878,12 +881,15 @@ html {
   .mein {
     height: 2300px;
     width: 600px;
+    padding-top: 60px;
     margin-left: 0;
     margin-left: 50px;
     margin-right: 100px;
     margin-bottom: 700px;
-    padding-bottom: 200px;
     padding-top: 100px;
+  }
+  .mein__team {
+    margin-right: 100px;
   }
   .csss {
     height: 2300px;
@@ -899,11 +905,10 @@ html {
     flex-shrink: 0;
   }
   .mein__us2 {
-    margin-left: 250px;
-    padding-top: 500px;
+    margin-left: 50px;
   }
   .mein__team {
-    margin-left: 130px;
+    padding-left: 160px;
   }
 }
 .modal {
@@ -1374,9 +1379,20 @@ html {
     margin-left: 50px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
   .footer {
     height: 500px;
     margin-top: 200px;
+    width: 900px;
+  }
+  .footer__foot1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 232px;
+  }
+  .footer__blok {
+    position: relative;
+    right: 180px;
+    bottom: 140px;
   }
 }/*# sourceMappingURL=all.css.map */

@@ -158,23 +158,32 @@
    
    }
 
-   @media screen and ( min-width:480px) {
+   @media screen and ( max-width:480px) {
     
 .footer{
     height: 500px;
    margin-top: 200px;
+   width: 900px;
+
 }
 
-// .footer__blok{
-//     margin-top: 200px;
-//     margin-right: 200px;
-// }
+.footer__foot1{
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 232px;
+
+}
 
 
-//    .footer-ol{
-// margin-left: 200px;
+.footer__blok{
 
-//    }
+  position: relative;
+  right:  180px;
+ 
+  bottom: 140px;
+}
+
 
     
    

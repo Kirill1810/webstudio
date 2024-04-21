@@ -96,6 +96,7 @@
     
     
     &__item4::before{
+      
         content: " ";
        background-image: url(./base/diagram1.png);
         background-repeat: no-repeat;
@@ -142,17 +143,23 @@
    .about__list{
     display: flex;
     flex-wrap: wrap;
-    width: 738px;
-    height: 464px;
+    
+
+  
+   
+   
    }
    .about{
-    width: 738px;
-    height: 464px;
+   padding-bottom: 300px;
+   margin-left: 30px;
+   margin-right: 15px;
    }
-   .about__item1{
 
-width: 354px;
-height:224px ;
+   .about__item1{
+    width: 354px;
+    height: 224px;
+    flex-shrink: 0;
+
 
    }
    .about__item2{
@@ -164,7 +171,7 @@ height:224px ;
 height:224px ;
    }
    .about__item4{
-    width: 354px;
+    width: 340px;
 height:224px ;
    }
 
@@ -175,36 +182,40 @@ height:224px ;
     .about__list{
         display: flex;
         flex-wrap: wrap;
-        width: 480px;
+        width: 700px;
         height: 464px;
+      
 
        }
        .about{
-        width: 480px;
+        width: 700px;
         height: 464px;
-        margin-right: 100px;
+        padding-bottom: 460px;
+        margin-left: 160px;
+       
        }
        .about__item1{
-        margin-left: 100px;
-    
-    width: 450px;
-    height:224px ;
-    
+       
+        width: 450px;
+        height:224px ;
        }
        .about__item2{
-        margin-left: 100px;
+       
         width: 450px;
     height:224px ;
+    
        }
        .about__item3{
-        margin-left: 100px;
+      
         width: 450px;
     height:224px ;
+   
        }
        .about__item4{
-       margin-left: 100px;
+  
         width: 450px;
     height:224px ;
+  
        }
 
        .about__item1::before{

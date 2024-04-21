@@ -179,7 +179,7 @@
 @media screen and (max-width: 768px) {
 
    .clients{
-    width: 738px;
+   
     height: 214px;
     display: flex;
     flex-wrap: wrap;
@@ -188,8 +188,8 @@
    }
 
    .clients__ul{
-    width: 738px;
-    height: 214px;
+   
+   
     display: flex;
     flex-wrap: wrap;
     margin-left: 100px;
@@ -212,19 +212,18 @@
   @media screen and ( max-width:480px) {
     
     .clients{
-        width: 600px;
-        
+        width:px;
        
        margin-bottom: 60px;
        padding-bottom: 60px;
        }
     
        .clients__ul{
-        width: 738px;
-        height: 214px;
+        
+      
         display: flex;
         flex-wrap: wrap;
-        margin-left: 150px;
+        margin-left: 250px;
         
      
        }

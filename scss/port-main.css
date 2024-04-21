@@ -65,7 +65,7 @@ html {
   pointer-events: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .coteiner {
     max-width: 738px;
   }

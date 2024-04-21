@@ -76,14 +76,16 @@
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
-
     &__card{
         border-radius: 0px 0px 4px 4px;
     background: #FFF;
     
     /* material shadow v1 */
+    
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-    }
+
+
+}
     
     &__svg:hover{
         background: #2196F3;
@@ -123,6 +125,7 @@
         margin-right: 100px;
         margin-bottom: 200px;
         padding-bottom: 60px;
+      
 
     }
 
@@ -155,17 +158,22 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0
     .mein{
         height: 2300px;
         width: 600px;
-       
+       padding-top: 60px;
       
 
         margin-left: 0;
      margin-left: 50px;
         margin-right: 100px;
         margin-bottom: 700px;
-        padding-bottom: 200px;
+      
         padding-top: 100px;
+      
 
 
+    }
+
+    .mein__team{
+       margin-right: 100px;
     }
 
     .csss{
@@ -186,13 +194,13 @@ box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0
 
     .mein__us2{
     
-        margin-left: 250px;
-        padding-top: 500px;
+        margin-left: 50px;
+      
     }
 
 
     .mein__team{
-        margin-left: 130px;
+     padding-left: 160px;
     }
      
     }
