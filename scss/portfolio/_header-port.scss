@@ -215,4 +215,70 @@
 
 
 
+@media screen and (max-width:768px) {
+
+    .header__nav{
+        display: flex;
+    }
+
+   
+
+
+
+    .header__li2{
+        display: flex;
+    }
+
+
+
+
+    .header__l{
+
+      
+    }
+
+.header__ll{
+    right: 50px;
+    width: 139px;
+    height: 34px;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+
+gap: 0;
+
+
+
+}
+
+
+ 
+
+
+  
+  
+  
+  }
+  
+  @media screen  and (max-width:480px){
+  
+ .header__l{
+    display: none;
+
+ }
+
+ .header__ll{
+    display: none;
+ }
+
+  
+  
+  
+    
+  }
+  
+
+
+
+
 

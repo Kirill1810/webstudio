@@ -227,6 +227,31 @@ html {
   color: #757575;
 }
 
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: flex;
+  }
+  .header__li2 {
+    display: flex;
+  }
+  .header__ll {
+    right: 50px;
+    width: 139px;
+    height: 34px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__l {
+    display: none;
+  }
+  .header__ll {
+    display: none;
+  }
+}
 .mein2 {
   margin-top: 94px;
 }
@@ -253,6 +278,16 @@ html {
   color: rgb(240, 242, 243);
 }
 
+@media screen and (max-width: 480px) {
+  .mein2__buttons2 {
+    margin-right: 200px;
+    display: flex;
+    width: 326px;
+  }
+  .mein2__buttons {
+    margin: 0;
+  }
+}
 .text4 {
   padding-bottom: 94px;
   padding-top: 50px;
@@ -362,6 +397,17 @@ html {
   bottom: 280px;
 }
 
+@media screen and (max-width: 768px) {
+  .text4__mein {
+    width: 778px;
+    height: 1700px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .text4__mein {
+    margin-left: 50px;
+  }
+}
 .footer2 {
   padding-bottom: 60px;
   background-color: #2F303A;
@@ -410,4 +456,10 @@ html {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer2 {
+    margin-top: 400px;
+  }
 }/*# sourceMappingURL=port-main.css.map */
