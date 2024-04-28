@@ -17,6 +17,8 @@
         line-height: 42px;
         text-align: center;
         letter-spacing: 0.03em;
+       
+       
     
         color: #212121;
         padding-bottom: 50px;
@@ -35,6 +37,11 @@
         color: #212121;
     
     }
+
+    &__work1{
+        display: flex;
+        gap: 30px;
+    }
     
     
     &__position{
@@ -46,17 +53,20 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        width: 200px;
+        width: 370px;
         position: relative;
         bottom: 70px;
-        left: 30px;
+        left: 0px;
         z-index: 2;
         
         background: rgba(47, 48, 58, 0.80);
         padding-left: 90px;
-        padding-right: 80px;
-        padding-top: 27px;
-        padding-bottom: 27px; 
+   
+    padding-top: 27px;
+    padding-bottom: 27px;
+   
+      
+     
     
     
     
@@ -70,10 +80,10 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        width: 200px;
+        width: 370px;
         position: relative;
         bottom: 70px;
-        left: 30px;
+        left: 0px;
         z-index: 2;
         background: rgba(47, 48, 58, 0.80);
         padding-left: 90px;
@@ -92,10 +102,10 @@
         line-height: normal;
         letter-spacing: 0.42px;
         text-transform: uppercase;
-        width: 200px;
+        width: 370px;
         position: relative;
         bottom: 70px;
-        left: 30px;
+        left: 0px;
         z-index: 2;
         
         background: rgba(47, 48, 58, 0.80);
@@ -107,7 +117,7 @@
     &__photo0 {
         width: 370px;
         height: 294px;
-        padding-left: 30px;
+        
     }
     &__us1 {
         display: flex;
@@ -117,14 +127,14 @@
     }
     &__work1{
         display: flex;
-        align-items: baseline;
+       
         padding-bottom: 94px;
         
     }
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
 
     .mein1{
         display: none;

@@ -1,6 +1,7 @@
 .text4{
     padding-bottom: 94px;
     padding-top: 50px;
+    width: 100%;
 
 
     &__mein {
@@ -75,6 +76,8 @@
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
             transform: translateY(100%);
           transition:  1s linear;
+          width: 370px;
+          height: 294px;
          
           
         }
@@ -90,7 +93,7 @@
             }
         }
         
-        &-li{
+        &__li{
             transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
           transition:  1s linear; 
           
@@ -139,7 +142,7 @@
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 1280px) {
 
 
 
@@ -149,6 +152,9 @@
 
 width: 778px;
 height: 1700px;
+margin-left: auto;
+margin-right: auto;
+
 }
   
   }

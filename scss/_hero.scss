@@ -13,6 +13,7 @@
     url(./base/imggg.png);
 
   &__bisnes {
+    text-align: center;
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
@@ -28,7 +29,7 @@
     width: 696px;
     height: 120px;
     margin: auto;
-    margin-left: 240px;
+  
     margin-bottom: 30px;
 
   }
@@ -57,7 +58,8 @@
     padding-bottom: 10px;
     border-radius: 4px;
     background: #2196f3;
-    margin-left: 450px;
+    margin-left:auto;
+    margin-right: auto;
 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 
@@ -73,7 +75,7 @@
 
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1280px) {
 
 
 
@@ -83,7 +85,7 @@
 
   .hero__bisnes {
   margin: 0;
-  margin-left: 200px;
+  text-align: center;
   width: 360px;
   height: 84px;
   color: #FFF;
@@ -98,10 +100,12 @@ font-weight: 900;
 line-height: 42px; /* 161.538% */
 letter-spacing: 1.56px;
 text-transform: uppercase;
+margin-left: 300px;
 
   }
   .hero__button{
-    margin-left:364px;
+    margin-left:auto;
+    margin-right: auto;
     width: 240px;
     padding-left: 45px;
 height: 50px;
@@ -117,6 +121,10 @@ line-height: 30px; /* 187.5% */
 letter-spacing: 0.96px;
 position: relative;
 right: 100px;
+  }
+
+  .hero{
+    width: 1000px;
   }
 
 

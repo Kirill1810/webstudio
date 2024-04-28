@@ -1,7 +1,8 @@
 .clients{
     margin-bottom: 91px;
-    padding-top: 140px;
+    padding-top: 240px;
   margin-right: 00px;
+
 
 
 
@@ -23,16 +24,17 @@
     &__ul{
         display: flex;
         gap: 30px;
-        margin-left: 00px;
+        margin-left: auto;
+        margin-right: auto;
+   
+
     }
     &__icon1{
         width: 106px;
     height: 60px;
     flex-shrink: 0;
-    padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+   
+   
     fill: #AFB1B8;
     transition: 900ms;
     }
@@ -41,10 +43,8 @@
         width: 106px;
         height: 60px;
         flex-shrink: 0;
-        padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+      
+   
     fill: #AFB1B8;
     transition: 900ms;
     }
@@ -54,10 +54,8 @@
         width: 106px;
         height: 60px;
         flex-shrink: 0;
-        padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+       
+   
     fill: #AFB1B8;
     transition: 900ms;
     }
@@ -67,10 +65,8 @@
         width: 106px;
         height: 60px;
         flex-shrink: 0;
-        padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+       
+   
     fill: #AFB1B8;
     transition: 900ms;
     }
@@ -80,9 +76,8 @@
         width: 106px;
         height: 60px;
         flex-shrink: 0;
-        padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
+       
+   
     padding-bottom: 16px;
     fill: #AFB1B8;
     transition: 900ms;
@@ -93,10 +88,7 @@
         width: 106px;
         height: 60px;
         flex-shrink: 0;
-        padding-left: 32px;
-    padding-right: 32px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+      
     fill: #AFB1B8;
     transition: 900ms;
     }
@@ -133,6 +125,14 @@
     }
 
 
+    &__icons{
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+
 
 
 }
@@ -146,6 +146,7 @@
      flex-wrap: wrap;
     margin-bottom: 60px;
     padding-bottom: 60px;
+    margin-left: 50px;
     }
  
     .clients__ul{
@@ -176,7 +177,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
 
    .clients{
    
@@ -212,7 +213,8 @@
   @media screen and ( max-width:480px) {
     
     .clients{
-        width:px;
+       margin-top: -300px;
+       
        
        margin-bottom: 60px;
        padding-bottom: 60px;
@@ -223,15 +225,18 @@
       
         display: flex;
         flex-wrap: wrap;
-        margin-left: 250px;
+        margin-left: 220px;
+
         
      
        }
     
        .clients__text{
-        margin-left: 200px;
+        margin-left: 160px;
        margin-top: -10px;
        margin-bottom: 30px;
+
+
        }
     
    

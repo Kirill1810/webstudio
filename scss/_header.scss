@@ -34,7 +34,7 @@
     &__ul {
         display: flex;
         justify-content: flex-start;
-        gap: 100px;
+        gap: 50px;
        margin-top: 30px;
        width: 200px;
 
@@ -49,10 +49,11 @@
     &__kontact{
         display: flex;
         justify-content: flex-end;
-        gap: 100px;
-        margin-left: auto;
+        gap: 30px;
+       
         align-items: center;
-    margin-left:400px ;
+        margin-left: 250px
+    
     
 
 
@@ -211,6 +212,8 @@
         outline: none;
         display: flex;
         margin-top: px;
+        width: 100%;
+      
     }
     
     &__stu{
@@ -287,7 +290,7 @@
     
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
 
    .header__ul{
         display: flex;
@@ -329,7 +332,7 @@
 
 
 .header__kontact{
-margin-left: 0px;
+margin-left: 100px;
 display: flex;
 flex-wrap: wrap;
 gap: 0px;
