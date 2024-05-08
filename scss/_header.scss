@@ -268,7 +268,12 @@
 
 
 
-  
+  .x-1{
+    width: 40px;
+    height: 40px;
+   
+   opacity: 0;
+  }
 
     
  
@@ -372,6 +377,21 @@ left: 150px;
     .header__nav{
        display: none;
        
+    }
+
+    .x-1{
+       opacity: 1;
+       position: relative;
+      
+       fill: #000000;
+    }
+
+    .x-2{
+        opacity: 1;
+        position: relative;
+        left: 750px;
+        top: -5px;
+       background-color: white;
     }
 
 

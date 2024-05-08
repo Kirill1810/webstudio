@@ -20,7 +20,7 @@
     
     &__item1::before{
         background-position: center;
-        background-image: url(./base/antenna1.png);
+        background-image: url(../img/antenna1.png);
         background-repeat: no-repeat;
         content: "";
         display: block;
@@ -40,7 +40,7 @@
         
         &__item3::before{
             background-position: center;
-            background-image: url(./base/diagram1.png);
+            background-image: url(../img/clock1.png);
             background-repeat: no-repeat;
             content: "";
             display: block;
@@ -62,7 +62,7 @@
         
         &__item2::before{
             background-position: center;
-            background-image: url(./base/clock1.png);
+            background-image: url(../img/clock1.png);
             background-repeat: no-repeat;
             content: "";
         display: block;
@@ -79,7 +79,7 @@
         
         &__item3::before{
             background-position: center;
-            background-image: url(./base/astronaut1.png);
+            background-image: url(../img/astronaut1.png);
             background-repeat: no-repeat;
             content: "";
             display: block;
@@ -98,7 +98,7 @@
     &__item4::before{
       
         content: " ";
-       background-image: url(./base/diagram1.png);
+       background-image: url(../img/diagram1.png);
         background-repeat: no-repeat;
         display: block;
         width: 270px;
@@ -185,14 +185,14 @@ height:224px ;
     .about__list{
         display: flex;
         flex-wrap: wrap;
-        width: 700px;
+       
         height: 464px;
        
       
 
        }
        .about{
-        width: 700px;
+
         height: 464px;
         padding-bottom: 460px;
         margin-left: 160px;

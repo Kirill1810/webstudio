@@ -74,6 +74,17 @@ button{
     }
     }
 
+    @media screen  and (max-width:768px){
+        .conteiner{
+            width:738px ;
+        }
+    }
+
+    // @media screen  and (max-width:480px){
+    //     .conteiner{
+    //         width: 450px;
+    //     }
+    // }
 
 
 

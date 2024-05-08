@@ -27,7 +27,7 @@
 <body>
 
     <header class="header">
-        <div class="conteiner header__conteiner">
+        <div class=" conteiner    header__conteiner">
             
          
             <a class="header__logo1" href="./index.html">Web<span class="header__logo2">Studio</span></a>
@@ -57,9 +57,16 @@
                     <a class="header__post" href="tell:+380961111111">+38 096 111 11 11</a>
                     </li>
 
+                 
+
 
                 </ul>
             </nav>
+            <button class=" x-2    js-open-menu">
+            <svg class="x-1">
+                <use href="./img/symbol-defs.svg#icon-x"></use>
+            </svg>
+        </button>
         
         </div>
     </header>
@@ -68,7 +75,7 @@
 
 
 
-       
+      
         <section class="hero">
             <div class="conteiner">
                 <h1  class="hero__bisnes">Ефективні рішення для вашого бізнесу </h1>
@@ -76,11 +83,12 @@
                 <button data-modal-open class="hero__button" type="button">Замовити послугу</button>
 
 
-            </div>
+        
                
-
+            </div>
         </section>
     
+  
 
         <section class="about">
             <div class="conteiner">
@@ -114,7 +122,7 @@
                 </ul>
             </div>
         </section>
-
+       
 
         <section   class="mein1">
             <div class="conteiner">
@@ -194,6 +202,10 @@
                             </svg></li>
                         </ul>
                     </li>
+
+
+
+                    
                     <li class="sssc">
                         <img src="./img/img5.jpg" alt="фото-людини" class="mein__photo1">
                         <h3 class="mein__worker">Михайло Єрмаков</h3>
@@ -344,9 +356,8 @@
 
    
     <li><h3 class="modal__call">Залиште свої дані, ми вам передзвонимо</h3></li>
-
-    <!-- <li><svg class="modal-cros"> <use href="./img/symbol-defs.svg#icon-x"></use> </svg></li> -->
-
+ 
+   
         <li class="cross"><button data-modal-close class="modal__cross"  type="button"><svg class="modal__cros2"> <use href="./img/symbol-defs.svg#icon-x"></use> </svg></button></li>
 
     <li><p class="modal__text">Ім'я</p></li>
@@ -399,9 +410,39 @@
 
 
 
+
+<div class=" is-open  js-menu-container   modile-menu">
+<ul  class="mobile-ul">
+   <button class=" x1    js-close-menu">
+        <svg class="x">
+            <use href="./img/symbol-defs.svg#icon-x"></use>
+        </svg>
+    </button>
+
+<li><a class="header__studio" href="./index.html">Студія</a></li>
+<li><a class="header__portfolio " href="Portfolio.html">Портфоліо</a></li>
+<li><a class="header__contakt" href="">Контакти</a></li>
+<li> <a class="header__numer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+<li> <a class="header__post" href="tell:+380961111111">+38 096 111 11 11</a></li>
+
+</ul>
+</div>
+
+
+
+
+
+
+
 <script src="./modal.js"></script>
+<script src="./mobile-menu.js"></script>
 
 </body>
+
+
+
+
+
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
