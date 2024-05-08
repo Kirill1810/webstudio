@@ -55,6 +55,7 @@ bottom: 0;
 .is-open{
    
     opacity: 0;
+    pointer-events: none;
 }
 
 
@@ -79,7 +80,22 @@ letter-spacing: 0.36px;
 .blu{
     display: flex;
     gap: 20px;
+
+
+
 }
+
+
+@media screen and ( min-width:768px) {
+
+    .modile-menu{
+        display: none;
+    }
+}
+
+
+
+
 
 @media screen and ( max-width:480px) {
   
