@@ -714,18 +714,18 @@ button {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .hero {
     width: 1300px;
     background-image: url(../img/desktop/imggg-desktop@1x.webp);
   }
 }
-@media screen and (max-width: 1280px) and (min-device-pixel-ratio: 2), screen and (max-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 1280px) and (min-resolution: 192dpi), screen and (max-width: 1280px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/desktop/imggg-desktop@2x.webp);
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .hero__bisnes {
     margin: 0;
     text-align: center;
