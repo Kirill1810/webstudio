@@ -38,9 +38,9 @@ button {
   pointer-events: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .conteiner {
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }

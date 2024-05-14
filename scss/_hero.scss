@@ -193,7 +193,7 @@ left: 80px;
    @media (min-device-pixel-ratio: 2),
      (min-resolution: 192dpi),
      (min-resolution: 2dppx) {
-     background-image: url(../img/tablet/imggg-tablet@2x.webp);
+     background-image: url(../img/tablet/Header\ img-tablet@2x.webp);
    }
    }
 }
@@ -209,15 +209,15 @@ left: 80px;
 @media screen  and (max-width:480px){
 
 .hero{
-
+width: 1000px;
   .hero{
     width: 1000px;
     
-    background-image: url(../img/desktop/imggg-desktop@1x.webp);
+    background-image: url(../img/mobile/imggg-mobile@1x.webp);
    @media (min-device-pixel-ratio: 2),
      (min-resolution: 192dpi),
      (min-resolution: 2dppx) {
-     background-image: url(../img/desktop/imggg-desktop@2x.webp);
+     background-image: url(../img/mobile/imggg-mobile@2x.webp);
    }
    }
 

@@ -370,9 +370,9 @@ button {
   pointer-events: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .conteiner {
-    max-width: 800px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -772,18 +772,21 @@ button {
 }
 @media screen and (max-width: 782px) and (min-device-pixel-ratio: 2), screen and (max-width: 782px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 782px) and (min-resolution: 192dpi), screen and (max-width: 782px) and (min-resolution: 2dppx) {
   .hero .hero {
-    background-image: url(../img/tablet/imggg-tablet@2x.webp);
+    background-image: url(../img/tablet/Header\ img-tablet@2x.webp);
   }
 }
 @media screen and (max-width: 480px) {
+  .hero {
+    width: 1000px;
+  }
   .hero .hero {
     width: 1000px;
-    background-image: url(../img/desktop/imggg-desktop@1x.webp);
+    background-image: url(../img/mobile/imggg-mobile@1x.webp);
   }
 }
 @media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 480px) and (min-resolution: 192dpi), screen and (max-width: 480px) and (min-resolution: 2dppx) {
   .hero .hero {
-    background-image: url(../img/desktop/imggg-desktop@2x.webp);
+    background-image: url(../img/mobile/imggg-mobile@2x.webp);
   }
 }
 @media screen and (max-width: 480px) {
