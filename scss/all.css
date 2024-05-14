@@ -658,19 +658,9 @@ button {
     background: linear-gradient(to right, rgba(9, 5, 47, .85) 10%, rgba(49, 29, 94, .85) 10%); */
   padding-top: 200px;
   padding-bottom: 200px;
-  background: rgba(47, 48, 58, 0.4), url(../img/imggg.png);
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(../img/imggg.png);
+  background: rgba(47, 48, 58, 0.4);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%);
   width: 1200px;
-}
-@media screen and (min-width: 1280px) {
-  .hero {
-    background-image: url(../img/desktop/imggg-desktop@1x.webp);
-  }
-}
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../img/desktop/imggg-desktop@2x.webp);
-  }
 }
 .hero__bisnes {
   text-align: center;
@@ -761,12 +751,22 @@ button {
     background-image: url(../img/tablet/imggg-tablet@2x.webp);
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-image: url(../img/desktop/imggg-desktop@1x.webp);
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/desktop/imggg-desktop@2x.webp);
+  }
+}
+@media screen and (min-width: 480px) {
   .hero {
     background-image: url(../img/mobile/imggg-mobile@1x.webp);
   }
 }
-@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 480px) and (min-resolution: 192dpi), screen and (max-width: 480px) and (min-resolution: 2dppx) {
+@media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero {
     background-image: url(../img/mobile/imggg-mobile@2x.webp);
   }
