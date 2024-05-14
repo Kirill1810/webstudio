@@ -660,6 +660,7 @@ button {
   padding-bottom: 200px;
   background: rgba(47, 48, 58, 0.4), url(../img/imggg.png);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url(../img/imggg.png);
+  width: 1200px;
 }
 @media screen and (min-width: 1280px) {
   .hero {
@@ -715,23 +716,12 @@ button {
 }
 
 @media screen and (min-width: 1280px) {
-  .hero {
-    width: 1300px;
-    background-image: url(../img/desktop/imggg-desktop@1x.webp);
-  }
-}
-@media screen and (min-width: 1280px) and (min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1280px) and (min-resolution: 192dpi), screen and (min-width: 1280px) and (min-resolution: 2dppx) {
-  .hero {
-    background-image: url(../img/desktop/imggg-desktop@2x.webp);
-  }
-}
-@media screen and (min-width: 1280px) {
   .hero__bisnes {
     margin: 0;
     text-align: center;
     width: 360px;
     height: 84px;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Roboto;
     font-size: 26px;
@@ -749,7 +739,7 @@ button {
     padding-left: 45px;
     height: 50px;
     flex-shrink: 0;
-    color: #FFF;
+    color: #fff;
     text-align: center;
     font-family: Roboto;
     font-size: 16px;
@@ -761,42 +751,34 @@ button {
     left: 80px;
   }
 }
-@media screen and (max-width: 782px) {
+@media screen and (min-width: 768px) {
   .hero {
-    width: 1000px;
-  }
-  .hero .hero {
-    width: 1000px;
     background-image: url(../img/tablet/imggg-tablet@1x.webp);
   }
 }
-@media screen and (max-width: 782px) and (min-device-pixel-ratio: 2), screen and (max-width: 782px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 782px) and (min-resolution: 192dpi), screen and (max-width: 782px) and (min-resolution: 2dppx) {
-  .hero .hero {
-    background-image: url(../img/tablet/Header\ img-tablet@2x.webp);
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/tablet/imggg-tablet@2x.webp);
   }
 }
 @media screen and (max-width: 480px) {
   .hero {
-    width: 1000px;
-  }
-  .hero .hero {
-    width: 1000px;
     background-image: url(../img/mobile/imggg-mobile@1x.webp);
   }
 }
 @media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), screen and (max-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (max-width: 480px) and (min-resolution: 192dpi), screen and (max-width: 480px) and (min-resolution: 2dppx) {
-  .hero .hero {
+  .hero {
     background-image: url(../img/mobile/imggg-mobile@2x.webp);
   }
 }
-@media screen and (max-width: 480px) {
-  .hero__bisnes {
-    margin-left: 180px;
-  }
-  .hero__button {
-    margin-left: 230px;
-  }
+.hero__bisnes {
+  margin-left: 180px;
 }
+
+.hero__button {
+  margin-left: 230px;
+}
+
 .mein__worker {
   font-family: "Roboto";
   font-style: normal;
