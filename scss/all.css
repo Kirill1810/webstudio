@@ -762,14 +762,6 @@ button {
     background-image: url(../img/desktop/imggg-desktop@2x.webp);
   }
 }
-@media screen and (m-width: 1200px) {
-  .hero__bisnes {
-    margin-left: 100px;
-  }
-  .hero__bisnes .hero {
-    width: 1202px;
-  }
-}
 @media screen and (max-width: 768px) {
   .hero__bisnes {
     margin-left: 80px;

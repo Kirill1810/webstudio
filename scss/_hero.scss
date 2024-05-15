@@ -145,13 +145,22 @@
  .hero{
 
   
- 
-    background-image: url(../img/desktop/imggg-desktop@1x.webp); 
-    @media (min-device-pixel-ratio: 2), 
-      (min-resolution: 192dpi), 
-      (min-resolution: 2dppx) { 
-      background-image: url(../img/desktop/imggg-desktop@2x.webp); 
-    }
+  background-image: url(../img/desktop/imggg-desktop@1x.webp); 
+  @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi), 
+    (min-resolution: 2dppx) { 
+    background-image: url(../img/desktop/imggg-desktop@2x.webp); 
+     }
+
+
+
+
+    // background-image: url(../img/desktop/imggg-desktop@1x.webp); 
+    // @media (min-device-pixel-ratio: 2), 
+    //   (min-resolution: 192dpi), 
+    //   (min-resolution: 2dppx) { 
+    //   background-image: url(../img/desktop/imggg-desktop@2x.webp); 
+    // }
     } 
   }
 
@@ -159,14 +168,7 @@
 
 
 
-  @media screen and (m-width: 1200px){
-    .hero__bisnes {
-      margin-left:100px;
-      .hero{
-        width: 1202px;
-      }
-    }
-  }
+  
 
 
 
