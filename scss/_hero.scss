@@ -80,7 +80,7 @@
 
 
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .hero__bisnes {
     margin: 0;
     text-align: center;
@@ -117,6 +117,18 @@
    
    
   }
+  .hero{
+
+   
+    background-image: url(../img/desktop/imggg-desktop@1x.webp);
+
+  @media (min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi), 
+    (min-resolution: 2dppx) { 
+    background-image: url(../img/desktop/imggg-desktop@2x.webp);
+    }
+    
+  } 
 
   
   } 
@@ -142,23 +154,7 @@
     } 
   } 
  
-  @media screen and (min-width: 1200px) { 
-
-   
-
-    .hero{
-
-   
-      background-image: url(../img/desktop/imggg-desktop@1x.webp);
-
-    @media (min-device-pixel-ratio: 2), 
-      (min-resolution: 192dpi), 
-      (min-resolution: 2dppx) { 
-      background-image: url(../img/desktop/imggg-desktop@2x.webp);
-      }
-      
-    } 
-  } 
+  
   
 
 
