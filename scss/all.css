@@ -107,7 +107,7 @@
   .about__list {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
+    width: 738px;
   }
   .about {
     padding-bottom: 0px;
@@ -128,7 +128,7 @@
     height: 224px;
   }
   .about__item4 {
-    width: 340px;
+    width: 354px;
     height: 224px;
   }
 }
@@ -141,7 +141,7 @@
   .about {
     height: 464px;
     padding-bottom: 460px;
-    margin-left: 160px;
+    margin-left: 260px;
   }
   .about__item1 {
     width: 450px;
@@ -322,7 +322,7 @@
   .clients__ul {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 220px;
+    margin-left: 120px;
   }
   .clients__text {
     margin-left: 160px;
@@ -369,21 +369,19 @@ button {
   pointer-events: none;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
   .conteiner {
     max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  }
+}
+@media screen and (max-width: 1004px) {
+  .conteiner {
+    max-width: 868px;
   }
 }
 @media screen and (max-width: 768px) {
   .conteiner {
-    width: 738px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .conteiner {
-    width: 450px;
+    max-width: 568px;
   }
 }
 .header {
@@ -664,8 +662,6 @@ button {
   padding-bottom: 200px;
   background: rgba(47, 48, 58, 0.4);
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%);
-  margin-left: auto;
-  margin-right: auto;
 }
 .hero__bisnes {
   text-align: center;
@@ -675,13 +671,11 @@ button {
   font-size: 44px;
   line-height: 60px;
   /* or 136% */
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
   width: 696px;
   height: 120px;
-  margin: auto;
   margin-bottom: 30px;
 }
 .hero__button {
@@ -705,8 +699,6 @@ button {
   padding-bottom: 10px;
   border-radius: 4px;
   background: #2196f3;
-  margin-left: auto;
-  margin-right: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -725,7 +717,6 @@ button {
     line-height: 42px; /* 161.538% */
     letter-spacing: 1.56px;
     text-transform: uppercase;
-    margin-left: 300px;
   }
   .hero__button {
     margin-left: auto;
@@ -742,8 +733,6 @@ button {
     font-weight: 700;
     line-height: 30px; /* 187.5% */
     letter-spacing: 0.96px;
-    position: relative;
-    left: 80px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -768,7 +757,13 @@ button {
 }
 @media screen and (max-width: 768px) {
   .hero__bisnes {
-    margin-left: 80px;
+    position: relative;
+    left: -100px;
+  }
+  .hero__button {
+    position: relative;
+    left: 100px;
+    top: 0;
   }
   .hero {
     width: 968px;
@@ -780,12 +775,26 @@ button {
     background-image: url(../img/mobile/imggg-mobile@2x.webp);
   }
 }
+@media screen and (max-width: 480px) {
+  .hero__bisnes {
+    position: relative;
+    left: -100px;
+  }
+  .hero__button {
+    position: relative;
+    left: 200px;
+    top: 0;
+  }
+}
 .hero__bisnes {
-  margin-left: 80px;
+  position: relative;
+  left: 300px;
 }
 
 .hero__button {
-  margin-left: 330px;
+  position: relative;
+  left: 500px;
+  top: 0;
 }
 
 .mein__worker {
@@ -904,7 +913,7 @@ button {
     height: 2300px;
     padding-top: 60px;
     margin-left: 0;
-    margin-left: 150px;
+    margin-left: 250px;
     margin-right: 160px;
     margin-bottom: 700px;
     padding-top: 100px;
@@ -913,7 +922,7 @@ button {
     padding-top: 500px;
   }
   .mein__team {
-    margin-right: 100px;
+    margin-right: 10px;
   }
   .csss {
     height: 2300px;
@@ -929,7 +938,7 @@ button {
     flex-shrink: 0;
   }
   .mein__us2 {
-    margin-left: 50px;
+    margin-left: 300px;
   }
   .mein__team {
     padding-left: 160px;

@@ -69,27 +69,34 @@ button{
 
 
 
- @media screen and (max-width:1280px) {
+ @media screen and (max-width:1200px) {
 
     .conteiner{
         max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
+       
+    
 
     }
     }
+
+@media screen  and (max-width:1004px){
+    .conteiner{
+       max-width:868px ;
+    }
+}
 
     @media screen  and (max-width:768px){
         .conteiner{
-            width:738px ;
+           max-width:568px ;
         }
     }
+   
 
-    @media screen  and (max-width:480px){
-        .conteiner{
-            width: 450px;
-        }
-    }
+    // @media screen  and (max-width:480px){
+    //     .conteiner{
+    //         width: 480px;
+    //     }
+    // }
 
 
 
