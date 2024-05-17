@@ -54,6 +54,8 @@
     height: 120px;
 
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   &__button {
@@ -81,5 +83,7 @@
     background: #2196f3;
 
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin-left: auto;
+    margin-right: auto;
   }
 }
