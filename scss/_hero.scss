@@ -28,11 +28,11 @@
     }
   }
   @media screen and (min-width: 1200px) {
-    background-image: url(../img/imggg.png);
+    background-image: url(../img/desktop/imggg-desktop@1x.webp);
     @media (min-device-pixel-ratio: 2),
       (min-resolution: 192dpi),
       (min-resolution: 2dppx) {
-      background-image: url(../img/imggg.png);
+      background-image: url(../img/desktop/imggg-desktop@2x.webp);
     }
   }
 

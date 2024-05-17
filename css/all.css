@@ -681,12 +681,12 @@ button {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    background-image: url(../img/imggg.png);
+    background-image: url(../img/desktop/imggg-desktop@1x.webp);
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: url(../img/imggg.png);
+    background-image: url(../img/desktop/imggg-desktop@2x.webp);
   }
 }
 .hero__bisnes {
